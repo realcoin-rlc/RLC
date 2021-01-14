@@ -1,0 +1,37 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/realcoin_bg.qm</file>
+        <file alias="ca">locale/realcoin_ca.qm</file>
+        <file alias="cs">locale/realcoin_cs.qm</file>
+        <file alias="da">locale/realcoin_da.qm</file>
+        <file alias="de">locale/realcoin_de.qm</file>
+        <file alias="en">locale/realcoin_en.qm</file>
+        <file alias="en_GB">locale/realcoin_en_GB.qm</file>
+        <file alias="en_US">locale/realcoin_en_US.qm</file>
+        <file alias="eo">locale/realcoin_eo.qm</file>
+        <file alias="es">locale/realcoin_es.qm</file>
+        <file alias="es_ES">locale/realcoin_es_ES.qm</file>
+        <file alias="fi">locale/realcoin_fi.qm</file>
+        <file alias="fr_FR">locale/realcoin_fr_FR.qm</file>
+        <file alias="hi_IN">locale/realcoin_hi_IN.qm</file>
+        <file alias="hr">locale/realcoin_hr.qm</file>
+        <file alias="hr_HR">locale/realcoin_hr_HR.qm</file>
+        <file alias="it">locale/realcoin_it.qm</file>
+        <file alias="ja">locale/realcoin_ja.qm</file>
+        <file alias="ko_KR">locale/realcoin_ko_KR.qm</file>
+        <file alias="lt_LT">locale/realcoin_lt_LT.qm</file>
+        <file alias="nl">locale/realcoin_nl.qm</file>
+        <file alias="pl">locale/realcoin_pl.qm</file>
+        <file alias="pt">locale/realcoin_pt.qm</file>
+        <file alias="pt_BR">locale/realcoin_pt_BR.qm</file>
+        <file alias="ro_RO">locale/realcoin_ro_RO.qm</file>
+        <file alias="ru">locale/realcoin_ru.qm</file>
+        <file alias="sk">locale/realcoin_sk.qm</file>
+        <file alias="sv">locale/realcoin_sv.qm</file>
+        <file alias="tr">locale/realcoin_tr.qm</file>
+        <file alias="uk">locale/realcoin_uk.qm</file>
+        <file alias="vi">locale/realcoin_vi.qm</file>
+        <file alias="zh_CN">locale/realcoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/realcoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

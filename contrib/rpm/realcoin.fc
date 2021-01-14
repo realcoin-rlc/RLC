@@ -1,0 +1,8 @@
+/usr/bin/realcoin-cli		--	gen_context(system_u:object_r:realcoin_exec_t,s0)
+/usr/sbin/realcoind		--	gen_context(system_u:object_r:realcoin_exec_t,s0)
+/usr/lib(64)?/realcoin/realcoind		--	gen_context(system_u:object_r:realcoin_exec_t,s0)
+
+/etc/realcoin(/.*)?		gen_context(system_u:object_r:realcoin_conf_t,s0)
+/var/lib/realcoin(/.*)?		gen_context(system_u:object_r:realcoin_var_lib_t,s0)
+
+(/var)?/run/realcoind(/.*)?   gen_context(system_u:object_r:realcoin_var_run_t,s0)

@@ -1,0 +1,3 @@
+usr/local/bin/realcoind usr/bin
+usr/local/bin/realcoin-cli usr/bin
+debian/examples/realcoin.conf etc/realcoin

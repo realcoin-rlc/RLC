@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=RealCoin Core
+Comment=RealCoin P2P Cryptocurrency
+Comment[fr]=RealCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=RealCoin, eşten eşe kriptografik sanal para birimi
+Exec=realcoin-qt %u
+Terminal=false
+Type=Application
+Icon=realcoin128
+MimeType=x-scheme-handler/realcoin;
+Categories=Office;Finance;
+StartupWMClass=RealCoin-qt
