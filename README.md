@@ -269,10 +269,5 @@ realcoin-cli getmasternodestatus
 
 ### Need Help?
 
-* Ask for help on the [RLC](https://discord.gg/ufrSdtFTs9) discord channel.
+* Ask for help on the [RLC](https://discord.gg/cxCeTNcRTm) discord channel.
 ---
-
-License
--------
-
-For license information see the file [COPYING](COPYING).
