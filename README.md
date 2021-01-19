@@ -15,7 +15,7 @@ Coin properties:
 ---
 ```
 Source branch - 3.3
-Algorithm - Quark
+Algorithm - SHA256CSM
 Block type - Proof-of-Work/Proof-of-Stake
 Coin name - RealCoin
 Coin abbreviation - RLC
@@ -111,7 +111,7 @@ How do I mine a block?
 ---
 * Use the following instructions to mine a block.
 * Open your wallet, and make sure your wallet is connected with a node.
-* Your wallet is connected when you see the icon Wallet connections quark in the lower right corner of your wallet.
+* Your wallet is connected when you see the icon Wallet connections RLC in the lower right corner of your wallet.
 1) Go to Help.
 2) Click Debug Window.
 * This is the console where you will execute all commands.
