@@ -172,16 +172,16 @@
         <translation>Potvrdit zašifrování peněženky</translation>
     </message>
     <message>
-        <source>RealCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RLCs from being stolen by malware infecting your computer.</source>
-        <translation>RealCoin se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše RLCy před krádží, pokud je Váš počítač infikován malwarem.</translation>
+        <source>RealCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your REAs from being stolen by malware infecting your computer.</source>
+        <translation>RealCoin se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše REAy před krádží, pokud je Váš počítač infikován malwarem.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Opravdu chcete zašifrovat Vaši peněženku?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR RLC&lt;/b&gt;!</source>
-        <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE RLCy&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REA&lt;/b&gt;!</source>
+        <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE REAy&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -397,8 +397,8 @@
         <translation>Procházet historii transakcí</translation>
     </message>
     <message>
-        <source>Privacy Actions for zRLC</source>
-        <translation>Řešení soukromí pro zRLC</translation>
+        <source>Privacy Actions for zREA</source>
+        <translation>Řešení soukromí pro zREA</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -2016,8 +2016,8 @@ MultiSend: %1</translation>
         <translation>Změna:</translation>
     </message>
     <message>
-        <source>0 RLC</source>
-        <translation>0 RLC</translation>
+        <source>0 REA</source>
+        <translation>0 REA</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>

@@ -91,7 +91,7 @@ assigned to them in the `touch` command that specifies the timestamp.
 
 ## SVG, PNG, and XPM Icons
 
-The `bitcoin.svg` file is from the source listed as `Source100`. It is used as
+The `realcoin.svg` file is from the source listed as `Source100`. It is used as
 the source for the PNG and XPM files. The generated PNG and XPM files are given
 the same timestamp as the source SVG file as a means of indicating they are
 derived from it.

@@ -5,9 +5,9 @@
 #include "libzerocoin/Denominations.h"
 #include "libzerocoin/CoinSpend.h"
 #include "libzerocoin/Accumulator.h"
-#include "zrlc/zerocoin.h"
-#include "zrlc/deterministicmint.h"
-#include "zrlc/zrlcwallet.h"
+#include "zrea/zerocoin.h"
+#include "zrea/deterministicmint.h"
+#include "zrea/zreawallet.h"
 #include "libzerocoin/Coin.h"
 #include "amount.h"
 #include "chainparams.h"
@@ -41,7 +41,7 @@ BOOST_AUTO_TEST_CASE(zerocoin_wrapped_serial_spend_test)
     string strWalletFile = "unittestwallet.dat";
     CWalletDB walletdb(strWalletFile, "cr+");
     CWallet wallet(strWalletFile);
-    CzRLCWallet *czRLCWallet = new CzRLCWallet(wallet.strWalletFile);
+    CzREAWallet *czREAWallet = new CzREAWallet(wallet.strWalletFile);
 
     // Get the 5 created mints.
     CoinDenomination denom = CoinDenomination::ZQ_FIFTY;
@@ -49,8 +49,8 @@ BOOST_AUTO_TEST_CASE(zerocoin_wrapped_serial_spend_test)
     for (unsigned int i = 0; i < TESTS_COINS_TO_ACCUMULATE; i++) {
         PrivateCoin coin(ZCParams, denom, false);
         CDeterministicMint dMint;
-        czRLCWallet->GenerateDeterministicZRLC(denom, coin, dMint, true);
-        czRLCWallet->UpdateCount();
+        czREAWallet->GenerateDeterministicZREA(denom, coin, dMint, true);
+        czREAWallet->UpdateCount();
         vCoins.emplace_back(coin);
     }
 

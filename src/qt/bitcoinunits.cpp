@@ -19,18 +19,18 @@ BitcoinUnits::BitcoinUnits(QObject* parent) : QAbstractListModel(parent),
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(RLC);
-    unitlist.append(mRLC);
-    unitlist.append(uRLC);
+    unitlist.append(REA);
+    unitlist.append(mREA);
+    unitlist.append(uREA);
     return unitlist;
 }
 
 bool BitcoinUnits::valid(int unit)
 {
     switch (unit) {
-    case RLC:
-    case mRLC:
-    case uRLC:
+    case REA:
+    case mREA:
+    case uREA:
         return true;
     default:
         return false;
@@ -40,11 +40,11 @@ bool BitcoinUnits::valid(int unit)
 QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
-    case RLC:
+    case REA:
         return QString("realcoin");
-    case mRLC:
+    case mREA:
         return QString("mrealcoin");
-    case uRLC:
+    case uREA:
         return QString::fromUtf8("urealcoin");
     default:
         return QString("???");
@@ -55,23 +55,23 @@ QString BitcoinUnits::name(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case RLC:
-            return QString("RLC");
-        case mRLC:
-            return QString("mRLC");
-        case uRLC:
-            return QString::fromUtf8("μRLC");
+        case REA:
+            return QString("REA");
+        case mREA:
+            return QString("mREA");
+        case uREA:
+            return QString::fromUtf8("μREA");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case RLC:
-            return QString("tRLC");
-        case mRLC:
-            return QString("mtRLC");
-        case uRLC:
-            return QString::fromUtf8("μtRLC");
+        case REA:
+            return QString("tREA");
+        case mREA:
+            return QString("mtREA");
+        case uREA:
+            return QString::fromUtf8("μtREA");
         default:
             return QString("???");
         }
@@ -82,23 +82,23 @@ QString BitcoinUnits::description(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case RLC:
-            return QString("RLC");
-        case mRLC:
-            return QString("Milli-RLC (1 / 1" THIN_SP_UTF8 "000)");
-        case uRLC:
-            return QString("Micro-RLC (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case REA:
+            return QString("REA");
+        case mREA:
+            return QString("Milli-REA (1 / 1" THIN_SP_UTF8 "000)");
+        case uREA:
+            return QString("Micro-REA (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case RLC:
-            return QString("TestRLCs");
-        case mRLC:
-            return QString("Milli-TestRLC (1 / 1" THIN_SP_UTF8 "000)");
-        case uRLC:
-            return QString("Micro-TestRLC (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case REA:
+            return QString("TestREAs");
+        case mREA:
+            return QString("Milli-TestREA (1 / 1" THIN_SP_UTF8 "000)");
+        case uREA:
+            return QString("Micro-TestREA (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
@@ -108,11 +108,11 @@ QString BitcoinUnits::description(int unit)
 qint64 BitcoinUnits::factor(int unit)
 {
     switch (unit) {
-    case RLC:
+    case REA:
         return 100000000;
-    case mRLC:
+    case mREA:
         return 100000;
-    case uRLC:
+    case uREA:
         return 100;
     default:
         return 100000000;
@@ -122,11 +122,11 @@ qint64 BitcoinUnits::factor(int unit)
 int BitcoinUnits::decimals(int unit)
 {
     switch (unit) {
-    case RLC:
+    case REA:
         return 8;
-    case mRLC:
+    case mREA:
         return 5;
-    case uRLC:
+    case uREA:
         return 2;
     default:
         return 0;

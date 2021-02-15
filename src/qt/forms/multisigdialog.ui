@@ -440,7 +440,7 @@ Please be patient after clicking import.</string>
                 </sizepolicy>
                </property>
                <property name="toolTip">
-                <string>Add destinations to send RLC to</string>
+                <string>Add destinations to send REA to</string>
                </property>
                <property name="text">
                 <string>Add &amp;Destination</string>

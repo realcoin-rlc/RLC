@@ -176,16 +176,16 @@
         <translation>Confirmar criptografia de carteira</translation>
     </message>
     <message>
-        <source>RealCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RLCs from being stolen by malware infecting your computer.</source>
-        <translation>RealCoin vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas RLCs de serem roubadas por malwares infectando seu computador.</translation>
+        <source>RealCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your REAs from being stolen by malware infecting your computer.</source>
+        <translation>RealCoin vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas REAs de serem roubadas por malwares infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Você tem certeza que deseja criptografar sua carteira?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR RLC&lt;/b&gt;!</source>
-        <translation>Aviso: se você criptografar sua carteira e perder sua senha você &lt;b&gt;PERDERÁ TODAS AS SUAS RLC&lt;b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REA&lt;/b&gt;!</source>
+        <translation>Aviso: se você criptografar sua carteira e perder sua senha você &lt;b&gt;PERDERÁ TODAS AS SUAS REA&lt;b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -409,8 +409,8 @@
         <translation>Olhar histórico de transação</translation>
     </message>
     <message>
-        <source>Privacy Actions for zRLC</source>
-        <translation>Ações privadas para zRLC</translation>
+        <source>Privacy Actions for zREA</source>
+        <translation>Ações privadas para zREA</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1863,8 +1863,8 @@ https://www.transifex.com/realcoin-project/realcoin-project-translations</transl
         <translation>0</translation>
     </message>
     <message>
-        <source>zRLC</source>
-        <translation>zRLC</translation>
+        <source>zREA</source>
+        <translation>zREA</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -1923,8 +1923,8 @@ https://www.transifex.com/realcoin-project/realcoin-project-translations</transl
         <translation>Estatísticas zerocoin:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zRLC</source>
-        <translation>Balanço Total incluindo não confirmadas e imaturas zRLC</translation>
+        <source>Total Balance including unconfirmed and immature zREA</source>
+        <translation>Balanço Total incluindo não confirmadas e imaturas zREA</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2567,8 +2567,8 @@ https://www.transifex.com/realcoin-project/realcoin-project-translations</transl
         <translation>Tamanho UTXO:</translation>
     </message>
     <message>
-        <source>0 RLC</source>
-        <translation>0 RLC</translation>
+        <source>0 REA</source>
+        <translation>0 REA</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2611,8 +2611,8 @@ https://www.transifex.com/realcoin-project/realcoin-project-translations</transl
         <translation>Tempo de confirmação:</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uRLCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uRLCs in fee,&lt;br /&gt;while "at least" pays 1000 uRLCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Se a taxa padrão estiver definida para 1000 uRLCs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uRLCs em taxa,&lt;br /&gt; pagará pelo menos 1000 uRLCs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uREAs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uREAs in fee,&lt;br /&gt;while "at least" pays 1000 uREAs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Se a taxa padrão estiver definida para 1000 uREAs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uREAs em taxa,&lt;br /&gt; pagará pelo menos 1000 uREAs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for RealCoin transactions than the network can process.</source>
@@ -2663,8 +2663,8 @@ https://www.transifex.com/realcoin-project/realcoin-project-translations</transl
         <translation>Adicionar &amp;Recipiente</translation>
     </message>
     <message>
-        <source>Anonymized RLC</source>
-        <translation>RLC anonimizadas</translation>
+        <source>Anonymized REA</source>
+        <translation>REA anonimizadas</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -3525,8 +3525,8 @@ https://www.transifex.com/realcoin-project/realcoin-project-translations</transl
         <translation>0</translation>
     </message>
     <message>
-        <source>zRLC</source>
-        <translation>zRLC</translation>
+        <source>zREA</source>
+        <translation>zREA</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -3552,12 +3552,12 @@ https://www.transifex.com/realcoin-project/realcoin-project-translations</transl
         <translation>Executar o comando quando uma transação da carteira mudar (%s no cmd será substituído pela TxID)</translation>
     </message>
     <message>
-        <source>Fees (in RLC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Taxas (em RLC/Kb) menores que isso serão consideradas taxa zero para propagação (padrão: %s)</translation>
+        <source>Fees (in REA/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Taxas (em REA/Kb) menores que isso serão consideradas taxa zero para propagação (padrão: %s)</translation>
     </message>
     <message>
-        <source>Fees (in RLC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Taxas (em RLC/Kb) menores que isso serão consideradas taxa zero para a criação da transação (padrão: %s)</translation>
+        <source>Fees (in REA/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Taxas (em REA/Kb) menores que isso serão consideradas taxa zero para a criação da transação (padrão: %s)</translation>
     </message>
     <message>
         <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
@@ -3576,8 +3576,8 @@ https://www.transifex.com/realcoin-project/realcoin-project-translations</transl
         <translation>Define o tamanho máximo de transações de alta prioridade/taxa baixa em bytes (padrão: %d)</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 RLC.</source>
-        <translation>Incapaz de localizar fundos para esta transação que não são iguais a 10000 RLC.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 REA.</source>
+        <translation>Incapaz de localizar fundos para esta transação que não são iguais a 10000 REA.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3752,8 +3752,8 @@ https://www.transifex.com/realcoin-project/realcoin-project-translations</transl
         <translation>Falhou em ler o bloco</translation>
     </message>
     <message>
-        <source>Fee (in RLC/kB) to add to transactions you send (default: %s)</source>
-        <translation>Taxa (em RLC/kB) a adicionar em transações que você enviar (padrão: %s)</translation>
+        <source>Fee (in REA/kB) to add to transactions you send (default: %s)</source>
+        <translation>Taxa (em REA/kB) a adicionar em transações que você enviar (padrão: %s)</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>

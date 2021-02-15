@@ -28,9 +28,9 @@ Build-Depends: debhelper,
  libzmq3-dev,
  dh-systemd
 Standards-Version: 3.9.2
-Homepage: http://www.realcoin.org
-Vcs-Git: git://github.com/RealCoin-Project/RealCoin.git
-Vcs-Browser: http://github.com/RealCoin-Project/RealCoin
+Homepage: http://www.real-coin.in
+Vcs-Git: git://github.com/realcoin-rea/REA.git
+Vcs-Browser: http://github.com/realcoin-rea/REA.git
 
 Package: realcoind
 Architecture: any

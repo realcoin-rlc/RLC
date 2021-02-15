@@ -4,11 +4,11 @@
 //
 
 
-#include "lightzrlcthread.h"
+#include "lightzreathread.h"
 #include "main.h"
 
 /****** Thread ********/
-void CLightWorker::ThreadLightZRLCSimplified() {
+void CLightWorker::ThreadLightZREASimplified() {
     RenameThread("realcoin-light-thread");
     isWorkerRunning = true;
     while (true) {
@@ -60,7 +60,7 @@ void CLightWorker::ThreadLightZRLCSimplified() {
                         );
 
                     } catch (NotEnoughMintsException e) {
-                        LogPrintStr(std::string("ThreadLightZRLCSimplified: ") + e.message + "\n");
+                        LogPrintStr(std::string("ThreadLightZREASimplified: ") + e.message + "\n");
                         rejectWork(genWit, blockHeight, NOT_ENOUGH_MINTS);
                         continue;
                     }
@@ -94,7 +94,7 @@ void CLightWorker::ThreadLightZRLCSimplified() {
             }
         } catch (std::exception& e) {
             //std::cout << "exception in light loop, closing it. " << e.what() << std::endl;
-            PrintExceptionContinue(&e, "lightzrlcthread");
+            PrintExceptionContinue(&e, "lightzreathread");
             break;
         }
     }

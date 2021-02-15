@@ -14,11 +14,11 @@
 #include "txdb.h"
 #include "util.h"
 #include "utilmoneystr.h"
-#include "zrlc/accumulatormap.h"
-#include "zrlc/accumulators.h"
+#include "zrea/accumulatormap.h"
+#include "zrea/accumulators.h"
 #include "wallet/wallet.h"
-#include "zrlc/zrlcmodule.h"
-#include "zrlcchain.h"
+#include "zrea/zreamodule.h"
+#include "zreachain.h"
 
 #include <stdint.h>
 #include <fstream>
@@ -139,12 +139,12 @@ UniValue blockToJSON(const CBlock& block, const CBlockIndex* blockindex, bool tx
 
     result.push_back(Pair("moneysupply",ValueFromAmount(blockindex->nMoneySupply)));
 
-    UniValue zrlcObj(UniValue::VOBJ);
+    UniValue zreaObj(UniValue::VOBJ);
     for (auto denom : libzerocoin::zerocoinDenomList) {
-        zrlcObj.push_back(Pair(to_string(denom), ValueFromAmount(blockindex->mapZerocoinSupply.at(denom) * (denom*COIN))));
+        zreaObj.push_back(Pair(to_string(denom), ValueFromAmount(blockindex->mapZerocoinSupply.at(denom) * (denom*COIN))));
     }
-    zrlcObj.push_back(Pair("total", ValueFromAmount(blockindex->GetZerocoinSupply())));
-    result.push_back(Pair("zRLCsupply", zrlcObj));
+    zreaObj.push_back(Pair("total", ValueFromAmount(blockindex->GetZerocoinSupply())));
+    result.push_back(Pair("zREAsupply", zreaObj));
 
     return result;
 }
@@ -182,17 +182,17 @@ UniValue getchecksumblock(const UniValue& params, bool fHelp)
             "  \"previousblockhash\" : \"hash\",  (string) The hash of the previous block\n"
             "  \"nextblockhash\" : \"hash\"       (string) The hash of the next block\n"
             "  \"moneysupply\" : \"supply\"       (numeric) The money supply when this block was added to the blockchain\n"
-            "  \"zRLCsupply\" :\n"
+            "  \"zREAsupply\" :\n"
             "  {\n"
-            "     \"1\" : n,            (numeric) supply of 1 zRLC denomination\n"
-            "     \"5\" : n,            (numeric) supply of 5 zRLC denomination\n"
-            "     \"10\" : n,           (numeric) supply of 10 zRLC denomination\n"
-            "     \"50\" : n,           (numeric) supply of 50 zRLC denomination\n"
-            "     \"100\" : n,          (numeric) supply of 100 zRLC denomination\n"
-            "     \"500\" : n,          (numeric) supply of 500 zRLC denomination\n"
-            "     \"1000\" : n,         (numeric) supply of 1000 zRLC denomination\n"
-            "     \"5000\" : n,         (numeric) supply of 5000 zRLC denomination\n"
-            "     \"total\" : n,        (numeric) The total supply of all zRLC denominations\n"
+            "     \"1\" : n,            (numeric) supply of 1 zREA denomination\n"
+            "     \"5\" : n,            (numeric) supply of 5 zREA denomination\n"
+            "     \"10\" : n,           (numeric) supply of 10 zREA denomination\n"
+            "     \"50\" : n,           (numeric) supply of 50 zREA denomination\n"
+            "     \"100\" : n,          (numeric) supply of 100 zREA denomination\n"
+            "     \"500\" : n,          (numeric) supply of 500 zREA denomination\n"
+            "     \"1000\" : n,         (numeric) supply of 1000 zREA denomination\n"
+            "     \"5000\" : n,         (numeric) supply of 5000 zREA denomination\n"
+            "     \"total\" : n,        (numeric) The total supply of all zREA denominations\n"
             "  }\n"
             "}\n"
 
@@ -573,17 +573,17 @@ UniValue getblock(const UniValue& params, bool fHelp)
             "  \"previousblockhash\" : \"hash\",  (string) The hash of the previous block\n"
             "  \"nextblockhash\" : \"hash\"       (string) The hash of the next block\n"
             "  \"moneysupply\" : \"supply\"       (numeric) The money supply when this block was added to the blockchain\n"
-            "  \"zRLCsupply\" :\n"
+            "  \"zREAsupply\" :\n"
             "  {\n"
-            "     \"1\" : n,            (numeric) supply of 1 zRLC denomination\n"
-            "     \"5\" : n,            (numeric) supply of 5 zRLC denomination\n"
-            "     \"10\" : n,           (numeric) supply of 10 zRLC denomination\n"
-            "     \"50\" : n,           (numeric) supply of 50 zRLC denomination\n"
-            "     \"100\" : n,          (numeric) supply of 100 zRLC denomination\n"
-            "     \"500\" : n,          (numeric) supply of 500 zRLC denomination\n"
-            "     \"1000\" : n,         (numeric) supply of 1000 zRLC denomination\n"
-            "     \"5000\" : n,         (numeric) supply of 5000 zRLC denomination\n"
-            "     \"total\" : n,        (numeric) The total supply of all zRLC denominations\n"
+            "     \"1\" : n,            (numeric) supply of 1 zREA denomination\n"
+            "     \"5\" : n,            (numeric) supply of 5 zREA denomination\n"
+            "     \"10\" : n,           (numeric) supply of 10 zREA denomination\n"
+            "     \"50\" : n,           (numeric) supply of 50 zREA denomination\n"
+            "     \"100\" : n,          (numeric) supply of 100 zREA denomination\n"
+            "     \"500\" : n,          (numeric) supply of 500 zREA denomination\n"
+            "     \"1000\" : n,         (numeric) supply of 1000 zREA denomination\n"
+            "     \"5000\" : n,         (numeric) supply of 5000 zREA denomination\n"
+            "     \"total\" : n,        (numeric) The total supply of all zREA denominations\n"
             "  }\n"
             "}\n"
 
@@ -1260,7 +1260,7 @@ UniValue getaccumulatorwitness(const UniValue& params, bool fHelp)
     CZerocoinSpendReceipt receipt;
 
     if (!GenerateAccumulatorWitness(pubCoin, accumulator, witness, nMintsAdded, strFailReason)) {
-        receipt.SetStatus(_(strFailReason.c_str()), ZRLC_FAILED_ACCUMULATOR_INITIALIZATION);
+        receipt.SetStatus(_(strFailReason.c_str()), ZREA_FAILED_ACCUMULATOR_INITIALIZATION);
         throw JSONRPCError(RPC_DATABASE_ERROR, receipt.GetStatusMessage());
     }
 
@@ -1436,7 +1436,7 @@ UniValue getserials(const UniValue& params, bool fHelp) {
                         }
                         libzerocoin::ZerocoinParams *params = Params().Zerocoin_Params(false);
                         PublicCoinSpend publicSpend(params);
-                        if (!ZRLCModule::parseCoinSpend(txin, tx, prevOut, publicSpend)) {
+                        if (!ZREAModule::parseCoinSpend(txin, tx, prevOut, publicSpend)) {
                             throw JSONRPCError(RPC_INTERNAL_ERROR, "public zerocoin spend parse failed");
                         }
                         serial_str = publicSpend.getCoinSerialNumber().ToString(16);
@@ -1510,9 +1510,9 @@ UniValue getblockindexstats(const UniValue& params, bool fHelp) {
                 "        \"denom_5\": xxxx           (numeric) number of PUBLIC spends of denom_5 occurred over the block range\n"
                 "         ...                    ... number of PUBLIC spends of other denominations: ..., 10, 50, 100, 500, 1000, 5000\n"
                 "  }\n"
-                "  \"txbytes\": xxxxx                (numeric) Sum of the size of all txes (zRLC excluded) over block range\n"
-                "  \"ttlfee\": xxxxx                 (numeric) Sum of the fee amount of all txes (zRLC mints excluded) over block range\n"
-                "  \"ttlfee_all\": xxxxx             (numeric) Sum of the fee amount of all txes (zRLC mints included) over block range\n"
+                "  \"txbytes\": xxxxx                (numeric) Sum of the size of all txes (zREA excluded) over block range\n"
+                "  \"ttlfee\": xxxxx                 (numeric) Sum of the fee amount of all txes (zREA mints excluded) over block range\n"
+                "  \"ttlfee_all\": xxxxx             (numeric) Sum of the fee amount of all txes (zREA mints included) over block range\n"
                 "  \"feeperkb\": xxxxx               (numeric) Average fee per kb (excluding zc txes)\n"
                 "}\n"
 

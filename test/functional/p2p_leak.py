@@ -18,7 +18,7 @@ from test_framework.mininode import *
 from test_framework.test_framework import BitcoinTestFramework
 from test_framework.util import *
 
-banscore = 10
+banscore = 1000
 
 class CLazyNode(P2PInterface):
     def __init__(self):

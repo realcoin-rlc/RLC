@@ -1,14 +1,14 @@
-What is RealCoin (RLC) ?
+What is RealCoin (REA) ?
 ===
 
-* Real-Coin (RLC) is a digital currency that enables instant payments to anyone, anywhere in the world. 
+* Real-Coin (REA) is a digital currency that enables instant payments to anyone, anywhere in the world. 
 * It uses different key features technology to operate with no central authority allowing everyone to operate the way they want to.
 * Realcoin has a "undefined":1 parity with Romania’s currency (RON), which means it’s protected against price volatility.
-* Each "undefined" RLC units are backed by 1 RON in the RealCoin platform’s reserve account, and this way each "undefined" RealCoin is 100 percent backed by real assets. 
-* Regardless of the changes that appear on the crypto market, "undefined" RLC will always be equal to 1 RON.
+* Each "undefined" REA units are backed by 1 RON in the RealCoin platform’s reserve account, and this way each "undefined" RealCoin is 100 percent backed by real assets. 
+* Regardless of the changes that appear on the crypto market, "undefined" REA will always be equal to 1 RON.
 
-This software is the RLC client.
-It downloads and stores the entire history of RLC transactions; depending on the speed of your computer and network connection, the synchronization process could take a day or more once the blockchain has reached a significant size.
+This software is the REA client.
+It downloads and stores the entire history of REA transactions; depending on the speed of your computer and network connection, the synchronization process could take a day or more once the blockchain has reached a significant size.
 
 ---
 Coin properties:
@@ -18,7 +18,7 @@ Source branch - 3.3
 Algorithm - SHA256CSM
 Block type - Proof-of-Work/Proof-of-Stake
 Coin name - RealCoin
-Coin abbreviation - RLC
+Coin abbreviation - REA
 Address letter - R
 Address letter testnet - Q
 RPC port - 26913
@@ -48,7 +48,7 @@ Transaction confirmations - 6 blocks
 Security Warnings
 ---
 
-**RLC is experimental and a work-in-progress.** Use at your own risk.
+**REA is experimental and a work-in-progress.** Use at your own risk.
 
 ---
 
@@ -79,9 +79,9 @@ $ sudo apt-get install libdb4.8-dev libdb4.8++-dev
 
 Ensure you have successfully installed all system package dependencies as described above. Then run the build, e.g.:
 ```
-$ git clone https://github.com/realcoin-rlc/RLC.git
-$ chmod -R +x RLC/
-$ cd RLC
+$ git clone https://github.com/realcoin-rea/rea.git
+$ chmod -R +x rea/
+$ cd rea
 $ ./autogen.sh
 $ ./configure --with-incompatible-bdb
 $ make
@@ -95,7 +95,7 @@ How do I enable staking?
 ---
 * Use the following instructions to enable staking in your wallet.
 * Open your wallet, and make sure you are connected to another wallet.
-* You are connected if you see the icon Wallet connections RLC in the lower right corner of your wallet.
+* You are connected if you see the icon Wallet connections REA in the lower right corner of your wallet.
 * Leave your wallet open and unlocked to stake.
 * Keep in mind that stake can only be generated when you have a balance in your wallet.
 * The following only applies if you encrypted your wallet.
@@ -111,7 +111,7 @@ How do I mine a block?
 ---
 * Use the following instructions to mine a block.
 * Open your wallet, and make sure your wallet is connected with a node.
-* Your wallet is connected when you see the icon Wallet connections RLC in the lower right corner of your wallet.
+* Your wallet is connected when you see the icon Wallet connections REA in the lower right corner of your wallet.
 1) Go to Help.
 2) Click Debug Window.
 * This is the console where you will execute all commands.
@@ -129,7 +129,7 @@ getmininginfo
 
 How do I setup a masternode?
 ---
-* Use the following instructions to setup a masternode for RLC on Ubuntu Server 18.04.
+* Use the following instructions to setup a masternode for REA on Ubuntu Server 18.04.
 * Create the config file.
 ```
 mkdir $HOME/.realcoin
@@ -269,5 +269,5 @@ realcoin-cli getmasternodestatus
 
 ### Need Help?
 
-* Ask for help on the [RLC](https://discord.gg/cxCeTNcRTm) discord channel.
+* Ask for help on the [REA](https://discord.gg/cxCeTNcRTm) discord channel.
 ---

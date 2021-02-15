@@ -34,7 +34,7 @@ class TxViewDelegate : public QAbstractItemDelegate
 {
     Q_OBJECT
 public:
-    TxViewDelegate() : QAbstractItemDelegate(), unit(BitcoinUnits::RLC)
+    TxViewDelegate() : QAbstractItemDelegate(), unit(BitcoinUnits::REA)
     {
     }
 
@@ -146,7 +146,7 @@ OverviewPage::~OverviewPage()
     delete ui;
 }
 
-void OverviewPage::getPercentage(CAmount nUnlockedBalance, CAmount nZerocoinBalance, QString& sRLCPercentage, QString& szRLCPercentage)
+void OverviewPage::getPercentage(CAmount nUnlockedBalance, CAmount nZerocoinBalance, QString& sREAPercentage, QString& szREAPercentage)
 {
     int nPrecision = 2;
     double dzPercentage = 0.0;
@@ -165,8 +165,8 @@ void OverviewPage::getPercentage(CAmount nUnlockedBalance, CAmount nZerocoinBala
 
     double dPercentage = 100.0 - dzPercentage;
 
-    szRLCPercentage = "(" + QLocale(QLocale::system()).toString(dzPercentage, 'f', nPrecision) + " %)";
-    sRLCPercentage = "(" + QLocale(QLocale::system()).toString(dPercentage, 'f', nPrecision) + " %)";
+    szREAPercentage = "(" + QLocale(QLocale::system()).toString(dzPercentage, 'f', nPrecision) + " %)";
+    sREAPercentage = "(" + QLocale(QLocale::system()).toString(dPercentage, 'f', nPrecision) + " %)";
 
 }
 
@@ -191,16 +191,16 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
         nWatchOnlyLockedBalance = pwalletMain->GetLockedWatchOnlyBalance();
     }
 
-    // RLC Balance
+    // REA Balance
     CAmount nTotalBalance = balance + unconfirmedBalance;
-    CAmount rlcAvailableBalance = balance - immatureBalance - nLockedBalance;
+    CAmount REAAvailableBalance = balance - immatureBalance - nLockedBalance;
     CAmount nUnlockedBalance = nTotalBalance - nLockedBalance;
 
-    // RLC Watch-Only Balance
+    // REA Watch-Only Balance
     CAmount nTotalWatchBalance = watchOnlyBalance + watchUnconfBalance;
     CAmount nAvailableWatchBalance = watchOnlyBalance - watchImmatureBalance - nWatchOnlyLockedBalance;
 
-    // zRLC Balance
+    // zREA Balance
     CAmount matureZerocoinBalance = zerocoinBalance - unconfirmedZerocoinBalance - immatureZerocoinBalance;
 
     // Percentages
@@ -208,11 +208,11 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
     QString sPercentage = "";
     getPercentage(nUnlockedBalance, zerocoinBalance, sPercentage, szPercentage);
     // Combined balances
-    CAmount availableTotalBalance = rlcAvailableBalance + matureZerocoinBalance;
+    CAmount availableTotalBalance = REAAvailableBalance + matureZerocoinBalance;
     CAmount sumTotalBalance = nTotalBalance + zerocoinBalance;
 
-    // RLC labels
-    ui->labelBalance->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, rlcAvailableBalance, false, BitcoinUnits::separatorAlways));
+    // REA labels
+    ui->labelBalance->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, REAAvailableBalance, false, BitcoinUnits::separatorAlways));
     ui->labelUnconfirmed->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, unconfirmedBalance, false, BitcoinUnits::separatorAlways));
     ui->labelImmature->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, immatureBalance, false, BitcoinUnits::separatorAlways));
     ui->labelLockedBalance->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, nLockedBalance, false, BitcoinUnits::separatorAlways));
@@ -225,7 +225,7 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
     ui->labelWatchLocked->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, nWatchOnlyLockedBalance, false, BitcoinUnits::separatorAlways));
     ui->labelWatchTotal->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, nTotalWatchBalance, false, BitcoinUnits::separatorAlways));
 
-    // zRLC labels
+    // zREA labels
     ui->labelzBalance->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, zerocoinBalance, false, BitcoinUnits::separatorAlways));
     ui->labelzBalanceUnconfirmed->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, unconfirmedZerocoinBalance, false, BitcoinUnits::separatorAlways));
     ui->labelzBalanceMature->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, matureZerocoinBalance, false, BitcoinUnits::separatorAlways));
@@ -236,11 +236,11 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
     ui->labelTotalz->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, sumTotalBalance, false, BitcoinUnits::separatorAlways));
 
     // Percentage labels
-    ui->labelRLCPercent->setText(sPercentage);
-    ui->labelzRLCPercent->setText(szPercentage);
+    ui->labelREAPercent->setText(sPercentage);
+    ui->labelzREAPercent->setText(szPercentage);
 
     // Adjust bubble-help according to AutoMint settings
-    QString automintHelp = tr("Current percentage of zRLC.\nIf AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).\n");
+    QString automintHelp = tr("Current percentage of zREA.\nIf AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).\n");
     bool fEnableZeromint = GetBoolArg("-enablezeromint", true);
     int nZeromintPercentage = GetArg("-zeromintpercentage", 10);
     if (fEnableZeromint) {
@@ -261,49 +261,49 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
 
     bool showWatchOnly = nTotalWatchBalance != 0;
 
-    // RLC Available
-    bool showRLCAvailable = settingShowAllBalances || rlcAvailableBalance != nTotalBalance;
-    bool showWatchOnlyRLCAvailable = showRLCAvailable || nAvailableWatchBalance != nTotalWatchBalance;
-    ui->labelBalanceText->setVisible(showRLCAvailable || showWatchOnlyRLCAvailable);
-    ui->labelBalance->setVisible(showRLCAvailable || showWatchOnlyRLCAvailable);
-    ui->labelWatchAvailable->setVisible(showWatchOnlyRLCAvailable && showWatchOnly);
+    // REA Available
+    bool showREAAvailable = settingShowAllBalances || REAAvailableBalance != nTotalBalance;
+    bool showWatchOnlyREAAvailable = showREAAvailable || nAvailableWatchBalance != nTotalWatchBalance;
+    ui->labelBalanceText->setVisible(showREAAvailable || showWatchOnlyREAAvailable);
+    ui->labelBalance->setVisible(showREAAvailable || showWatchOnlyREAAvailable);
+    ui->labelWatchAvailable->setVisible(showWatchOnlyREAAvailable && showWatchOnly);
 
-    // RLC Pending
-    bool showRLCPending = settingShowAllBalances || unconfirmedBalance != 0;
-    bool showWatchOnlyRLCPending = showRLCPending || watchUnconfBalance != 0;
-    ui->labelPendingText->setVisible(showRLCPending || showWatchOnlyRLCPending);
-    ui->labelUnconfirmed->setVisible(showRLCPending || showWatchOnlyRLCPending);
-    ui->labelWatchPending->setVisible(showWatchOnlyRLCPending && showWatchOnly);
+    // REA Pending
+    bool showREAPending = settingShowAllBalances || unconfirmedBalance != 0;
+    bool showWatchOnlyREAPending = showREAPending || watchUnconfBalance != 0;
+    ui->labelPendingText->setVisible(showREAPending || showWatchOnlyREAPending);
+    ui->labelUnconfirmed->setVisible(showREAPending || showWatchOnlyREAPending);
+    ui->labelWatchPending->setVisible(showWatchOnlyREAPending && showWatchOnly);
 
-    // RLC Immature
-    bool showRLCImmature = settingShowAllBalances || immatureBalance != 0;
-    bool showWatchOnlyImmature = showRLCImmature || watchImmatureBalance != 0;
-    ui->labelImmatureText->setVisible(showRLCImmature || showWatchOnlyImmature);
-    ui->labelImmature->setVisible(showRLCImmature || showWatchOnlyImmature); // for symmetry reasons also show immature label when the watch-only one is shown
+    // REA Immature
+    bool showREAImmature = settingShowAllBalances || immatureBalance != 0;
+    bool showWatchOnlyImmature = showREAImmature || watchImmatureBalance != 0;
+    ui->labelImmatureText->setVisible(showREAImmature || showWatchOnlyImmature);
+    ui->labelImmature->setVisible(showREAImmature || showWatchOnlyImmature); // for symmetry reasons also show immature label when the watch-only one is shown
     ui->labelWatchImmature->setVisible(showWatchOnlyImmature && showWatchOnly); // show watch-only immature balance
 
-    // RLC Locked
-    bool showRLCLocked = settingShowAllBalances || nLockedBalance != 0;
-    bool showWatchOnlyRLCLocked = showRLCLocked || nWatchOnlyLockedBalance != 0;
-    ui->labelLockedBalanceText->setVisible(showRLCLocked || showWatchOnlyRLCLocked);
-    ui->labelLockedBalance->setVisible(showRLCLocked || showWatchOnlyRLCLocked);
-    ui->labelWatchLocked->setVisible(showWatchOnlyRLCLocked && showWatchOnly);
+    // REA Locked
+    bool showREALocked = settingShowAllBalances || nLockedBalance != 0;
+    bool showWatchOnlyREALocked = showREALocked || nWatchOnlyLockedBalance != 0;
+    ui->labelLockedBalanceText->setVisible(showREALocked || showWatchOnlyREALocked);
+    ui->labelLockedBalance->setVisible(showREALocked || showWatchOnlyREALocked);
+    ui->labelWatchLocked->setVisible(showWatchOnlyREALocked && showWatchOnly);
 
-    // zRLC
-    bool showzRLCAvailable = settingShowAllBalances || zerocoinBalance != matureZerocoinBalance;
-    bool showzRLCUnconfirmed = settingShowAllBalances || unconfirmedZerocoinBalance != 0;
-    bool showzRLCImmature = settingShowAllBalances || immatureZerocoinBalance != 0;
-    ui->labelzBalanceMature->setVisible(showzRLCAvailable);
-    ui->labelzBalanceMatureText->setVisible(showzRLCAvailable);
-    ui->labelzBalanceUnconfirmed->setVisible(showzRLCUnconfirmed);
-    ui->labelzBalanceUnconfirmedText->setVisible(showzRLCUnconfirmed);
-    ui->labelzBalanceImmature->setVisible(showzRLCImmature);
-    ui->labelzBalanceImmatureText->setVisible(showzRLCImmature);
+    // zREA
+    bool showzREAAvailable = settingShowAllBalances || zerocoinBalance != matureZerocoinBalance;
+    bool showzREAUnconfirmed = settingShowAllBalances || unconfirmedZerocoinBalance != 0;
+    bool showzREAImmature = settingShowAllBalances || immatureZerocoinBalance != 0;
+    ui->labelzBalanceMature->setVisible(showzREAAvailable);
+    ui->labelzBalanceMatureText->setVisible(showzREAAvailable);
+    ui->labelzBalanceUnconfirmed->setVisible(showzREAUnconfirmed);
+    ui->labelzBalanceUnconfirmedText->setVisible(showzREAUnconfirmed);
+    ui->labelzBalanceImmature->setVisible(showzREAImmature);
+    ui->labelzBalanceImmatureText->setVisible(showzREAImmature);
 
     // Percent split
     bool showPercentages = ! (zerocoinBalance == 0 && nTotalBalance == 0);
-    ui->labelRLCPercent->setVisible(showPercentages);
-    ui->labelzRLCPercent->setVisible(showPercentages);
+    ui->labelREAPercent->setVisible(showPercentages);
+    ui->labelzREAPercent->setVisible(showPercentages);
 
     static int cachedTxLocks = 0;
 
@@ -375,7 +375,7 @@ void OverviewPage::setWalletModel(WalletModel* model)
         connect(model, SIGNAL(notifyWatchonlyChanged(bool)), this, SLOT(updateWatchOnlyLabels(bool)));
     }
 
-    // update the display unit, to not use the default ("RLC")
+    // update the display unit, to not use the default ("REA")
     updateDisplayUnit();
 
     // Hide orphans

@@ -4,7 +4,7 @@
 
 #include "blocksignature.h"
 #include "main.h"
-#include "zrlcchain.h"
+#include "zreachain.h"
 
 bool SignBlockWithKey(CBlock& block, const CKey& key)
 {
@@ -62,13 +62,13 @@ bool CheckBlockSignature(const CBlock& block)
     if (block.vchBlockSig.empty())
         return error("%s: vchBlockSig is empty!", __func__);
 
-    /** Each block is signed by the private key of the input that is staked. This can be either zRLC or normal UTXO
-     *  zRLC: Each zRLC has a keypair associated with it. The serial number is a hash of the public key.
+    /** Each block is signed by the private key of the input that is staked. This can be either zREA or normal UTXO
+     *  zREA: Each zREA has a keypair associated with it. The serial number is a hash of the public key.
      *  UTXO: The public key that signs must match the public key associated with the first utxo of the coinstake tx.
      */
     CPubKey pubkey;
-    bool fzRLCStake = block.vtx[1].vin[0].IsZerocoinSpend();
-    if (fzRLCStake) {
+    bool fzREAStake = block.vtx[1].vin[0].IsZerocoinSpend();
+    if (fzREAStake) {
         libzerocoin::CoinSpend spend = TxInToZerocoinSpend(block.vtx[1].vin[0]);
         pubkey = spend.getPubKey();
     } else {

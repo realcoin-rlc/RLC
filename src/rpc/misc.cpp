@@ -65,17 +65,17 @@ UniValue getinfo(const UniValue& params, bool fHelp)
             "  \"difficulty\": xxxxxx,       (numeric) the current difficulty\n"
             "  \"testnet\": true|false,      (boolean) if the server is using testnet or not\n"
             "  \"moneysupply\" : \"supply\"       (numeric) The money supply when this block was added to the blockchain\n"
-            "  \"zRLCsupply\" :\n"
+            "  \"zREAsupply\" :\n"
             "  {\n"
-            "     \"1\" : n,            (numeric) supply of 1 zRLC denomination\n"
-            "     \"5\" : n,            (numeric) supply of 5 zRLC denomination\n"
-            "     \"10\" : n,           (numeric) supply of 10 zRLC denomination\n"
-            "     \"50\" : n,           (numeric) supply of 50 zRLC denomination\n"
-            "     \"100\" : n,          (numeric) supply of 100 zRLC denomination\n"
-            "     \"500\" : n,          (numeric) supply of 500 zRLC denomination\n"
-            "     \"1000\" : n,         (numeric) supply of 1000 zRLC denomination\n"
-            "     \"5000\" : n,         (numeric) supply of 5000 zRLC denomination\n"
-            "     \"total\" : n,        (numeric) The total supply of all zRLC denominations\n"
+            "     \"1\" : n,            (numeric) supply of 1 zREA denomination\n"
+            "     \"5\" : n,            (numeric) supply of 5 zREA denomination\n"
+            "     \"10\" : n,           (numeric) supply of 10 zREA denomination\n"
+            "     \"50\" : n,           (numeric) supply of 50 zREA denomination\n"
+            "     \"100\" : n,          (numeric) supply of 100 zREA denomination\n"
+            "     \"500\" : n,          (numeric) supply of 500 zREA denomination\n"
+            "     \"1000\" : n,         (numeric) supply of 1000 zREA denomination\n"
+            "     \"5000\" : n,         (numeric) supply of 5000 zREA denomination\n"
+            "     \"total\" : n,        (numeric) The total supply of all zREA denominations\n"
             "  }\n"
             "  \"keypoololdest\": xxxxxx,    (numeric) the timestamp (seconds since GMT epoch) of the oldest pre-generated key in the key pool\n"
             "  \"keypoolsize\": xxxx,        (numeric) how many new keys are pre-generated\n"
@@ -144,12 +144,12 @@ UniValue getinfo(const UniValue& params, bool fHelp)
     }
 
     obj.push_back(Pair("moneysupply",ValueFromAmount(chainActive.Tip()->nMoneySupply)));
-    UniValue zrlcObj(UniValue::VOBJ);
+    UniValue zreaObj(UniValue::VOBJ);
     for (auto denom : libzerocoin::zerocoinDenomList) {
-        zrlcObj.push_back(Pair(to_string(denom), ValueFromAmount(chainActive.Tip()->mapZerocoinSupply.at(denom) * (denom*COIN))));
+        zreaObj.push_back(Pair(to_string(denom), ValueFromAmount(chainActive.Tip()->mapZerocoinSupply.at(denom) * (denom*COIN))));
     }
-    zrlcObj.push_back(Pair("total", ValueFromAmount(chainActive.Tip()->GetZerocoinSupply())));
-    obj.push_back(Pair("zRLCsupply", zrlcObj));
+    zreaObj.push_back(Pair("total", ValueFromAmount(chainActive.Tip()->GetZerocoinSupply())));
+    obj.push_back(Pair("zREAsupply", zreaObj));
 
 #ifdef ENABLE_WALLET
     if (pwalletMain) {

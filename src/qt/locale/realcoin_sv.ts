@@ -176,16 +176,16 @@
         <translation>Bekräfta plånboks krypering</translation>
     </message>
     <message>
-        <source>RealCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RLCs from being stolen by malware infecting your computer.</source>
-        <translation>RealCoin kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina RLCs från att bli stulna av skadeprogram som infekterat din dator.</translation>
+        <source>RealCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your REAs from being stolen by malware infecting your computer.</source>
+        <translation>RealCoin kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina REAs från att bli stulna av skadeprogram som infekterat din dator.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Är du säker på att du vill kryptera din plånbok?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR RLC&lt;/b&gt;!</source>
-        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA RLC&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REA&lt;/b&gt;!</source>
+        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA REA&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -433,8 +433,8 @@
         <translation>Bläddra i transaktions historiken</translation>
     </message>
     <message>
-        <source>Privacy Actions for zRLC</source>
-        <translation>Integritets funktioner för zRLC</translation>
+        <source>Privacy Actions for zREA</source>
+        <translation>Integritets funktioner för zREA</translation>
     </message>
     <message>
         <source>&amp;Governance</source>
@@ -1146,8 +1146,8 @@ MultiSend: %1</translation>
         <translation>Den här etiketten blir röd, ifall någon mottagare får en mängd som är mindre än %1.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 urlc per input.</source>
-        <translation>Kan variera med +/- %1 urlc per inmatning.</translation>
+        <source>Can vary +/- %1 urea per input.</source>
+        <translation>Kan variera med +/- %1 urea per inmatning.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1770,8 +1770,8 @@ Var god vänta efter att du trycker på importera.</translation>
         <translation>Adress / Mängd:</translation>
     </message>
     <message>
-        <source>Add destinations to send RLC to</source>
-        <translation>Lägg till destination att skicka RLC till</translation>
+        <source>Add destinations to send REA to</source>
+        <translation>Lägg till destination att skicka REA till</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1970,36 +1970,36 @@ https://www.transifex.com/realcoin-project/realcoin-project-translations</transl
         <translation>Kartlägg port med &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of RLC units to zRLC</source>
-        <translation>Tillåt automatisk prägling med RLC enheter till zRLC</translation>
+        <source>Enable automatic minting of REA units to zREA</source>
+        <translation>Tillåt automatisk prägling med REA enheter till zREA</translation>
     </message>
     <message>
-        <source>Enable zRLC Automint</source>
-        <translation>Tillåt zRLC Autoprägling</translation>
+        <source>Enable zREA Automint</source>
+        <translation>Tillåt zREA Autoprägling</translation>
     </message>
     <message>
-        <source>Enable automatic zRLC minting from specific addresses</source>
-        <translation>Aktivera automatisk zRLC prägling från specifika adresser</translation>
+        <source>Enable automatic zREA minting from specific addresses</source>
+        <translation>Aktivera automatisk zREA prägling från specifika adresser</translation>
     </message>
     <message>
         <source>Enable Automint Addresses</source>
         <translation>Aktivera autopräglingsadresser</translation>
     </message>
     <message>
-        <source>Percentage of incoming RLC which get automatically converted to zRLC via Zerocoin Protocol (min: 10%)</source>
-        <translation>Procent av inkommande RLC som automatiskt konverteras till zRLC via Zerocoin Protokollet (min: 10%)</translation>
+        <source>Percentage of incoming REA which get automatically converted to zREA via Zerocoin Protocol (min: 10%)</source>
+        <translation>Procent av inkommande REA som automatiskt konverteras till zREA via Zerocoin Protokollet (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zRLC</source>
-        <translation>Procent av autopräglade zRLC</translation>
+        <source>Percentage of autominted zREA</source>
+        <translation>Procent av autopräglade zREA</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough RLC for this denomination is available</source>
-        <translation>Vänta med automatisk omvandling till Zerocoin tills tillräckligt många RLC för denna valör är tillgängliga</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough REA for this denomination is available</source>
+        <translation>Vänta med automatisk omvandling till Zerocoin tills tillräckligt många REA för denna valör är tillgängliga</translation>
     </message>
     <message>
-        <source>Preferred Automint zRLC Denomination</source>
-        <translation>Preferens på zRLC valör i autoprägling</translation>
+        <source>Preferred Automint zREA Denomination</source>
+        <translation>Preferens på zREA valör i autoprägling</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
@@ -2165,8 +2165,8 @@ https://www.transifex.com/realcoin-project/realcoin-project-translations</transl
         <translation>Totalt saldo, inkluderar alla otillgängliga mynt.</translation>
     </message>
     <message>
-        <source>RLC Balance</source>
-        <translation>RLC Saldo</translation>
+        <source>REA Balance</source>
+        <translation>REA Saldo</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2193,14 +2193,14 @@ https://www.transifex.com/realcoin-project/realcoin-project-translations</transl
         <translation>Ditt nuvarande RealCoin saldo, obekräftade och omogna transaktioner är inkluderade</translation>
     </message>
     <message>
-        <source>zRLC Balance</source>
-        <translation>zRLC Saldo</translation>
+        <source>zREA Balance</source>
+        <translation>zREA Saldo</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zRLC are spendable.</source>
+These zREA are spendable.</source>
         <translation>Mogna: över 20 bekräftelser och över 1 prägling av samma valör efter den blev myntad.
-Dessa zRLC kan spenderas.</translation>
+Dessa zREA kan spenderas.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2253,8 +2253,8 @@ Omogna: bekräftade men under 1 myntning av samma valör efter den blev präglad
         <translation>Spenderbar:</translation>
     </message>
     <message>
-        <source>Locked RLC or Masternode collaterals. These are excluded from zRLC minting.</source>
-        <translation>Låsta RLC eller masternode som säkerhet. Dessa är uteslutna från zRLC minting.</translation>
+        <source>Locked REA or Masternode collaterals. These are excluded from zREA minting.</source>
+        <translation>Låsta REA eller masternode som säkerhet. Dessa är uteslutna från zREA minting.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2265,8 +2265,8 @@ Omogna: bekräftade men under 1 myntning av samma valör efter den blev präglad
         <translation>Obekräftade:</translation>
     </message>
     <message>
-        <source>Your current zRLC balance, unconfirmed and immature zRLC included.</source>
-        <translation>Ditt nuvarande zRLC saldo, obekräftade och omogna zRLC inräknade.</translation>
+        <source>Your current zREA balance, unconfirmed and immature zREA included.</source>
+        <translation>Ditt nuvarande zREA saldo, obekräftade och omogna zREA inräknade.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2277,10 +2277,10 @@ Omogna: bekräftade men under 1 myntning av samma valör efter den blev präglad
         <translation>osynkroniserad</translation>
     </message>
     <message>
-        <source>Current percentage of zRLC.
+        <source>Current percentage of zREA.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Nuvarande procent zRLC.
+        <translation>Nuvarande procent zREA.
 Om AutoMint är tillåten så kommer denna procent att vara som den konfigurerade AutoMint procenten (standard = 10%).
 </translation>
     </message>
@@ -2424,8 +2424,8 @@ För att aktivera AutoMint ändra 'enablezeromint=0' till 'enablezeromint=1' i r
         <translation>0</translation>
     </message>
     <message>
-        <source>zRLC</source>
-        <translation>zRLC</translation>
+        <source>zREA</source>
+        <translation>zREA</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2452,12 +2452,12 @@ För att aktivera AutoMint ändra 'enablezeromint=0' till 'enablezeromint=1' i r
         <translation>SEKRETESS</translation>
     </message>
     <message>
-        <source>zRLC Control</source>
-        <translation>zRLC Kontroll</translation>
+        <source>zREA Control</source>
+        <translation>zREA Kontroll</translation>
     </message>
     <message>
-        <source>zRLC Selected:</source>
-        <translation>Valda zRLC:</translation>
+        <source>zREA Selected:</source>
+        <translation>Valda zREA:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2472,24 +2472,24 @@ För att aktivera AutoMint ändra 'enablezeromint=0' till 'enablezeromint=1' i r
         <translation>Spendera Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zRLC for spending</source>
-        <translation>Tillgängliga (mogna och spenderbara) zRLC att spendera</translation>
+        <source>Available (mature and spendable) zREA for spending</source>
+        <translation>Tillgängliga (mogna och spenderbara) zREA att spendera</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Tillgängligt Saldo:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zRLC for spending
+        <source>Available (mature and spendable) zREA for spending
 
-zRLC are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Tillgängliga (mogna och spenderbara) zRLC att spendera
+zREA are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Tillgängliga (mogna och spenderbara) zREA att spendera
 
-zRLC är mogna när de har över 20 bekräftelser OCH över 2 präglingar av samma valör efter de är myntade.</translation>
+zREA är mogna när de har över 20 bekräftelser OCH över 2 präglingar av samma valör efter de är myntade.</translation>
     </message>
     <message>
-        <source>0 zRLC</source>
-        <translation>0 zRLC</translation>
+        <source>0 zREA</source>
+        <translation>0 zREA</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -2548,8 +2548,8 @@ zRLC är mogna när de har över 20 bekräftelser OCH över 2 präglingar av sam
         <translation>Zerocoin Stats:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zRLC</source>
-        <translation>Totalt Saldo, obekräftade och omogna zRLC inkluderade</translation>
+        <source>Total Balance including unconfirmed and immature zREA</source>
+        <translation>Totalt Saldo, obekräftade och omogna zREA inkluderade</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2570,24 +2570,24 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Omogna: bekräftade men under 1 myntning av samma valör efter den blev präglad</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zRLC minting.
+        <source>Show the current status of automatic zREA minting.
 
 To change the status (restart required):
 - enable: add 'enablezeromint=1' to realcoin.conf
 - disable: add 'enablezeromint=0' to realcoin.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zRLC
+- menu Settings-&gt;Options-&gt;Percentage of autominted zREA
 
 </source>
-        <translation>Visa den nuvarande statusen av automatisk zRLC minting.
+        <translation>Visa den nuvarande statusen av automatisk zREA minting.
 
 För att ändra statusen (omstart krävs):
 -aktivera: lägg till 'enablezeromint=1' i realcoin.conf
 -inaktivera: lägg till 'enablezeromint=0' i realcoin.conf
 
 För att ändra procenten (ingen omstart krävs):
--meny Inställningar-&gt;Alternativ-&gt;Procent på autominted zRLC
+-meny Inställningar-&gt;Alternativ-&gt;Procent på autominted zREA
 
 </translation>
     </message>
@@ -2636,20 +2636,20 @@ För att ändra procenten (ingen omstart krävs):
         <translation>0 x</translation>
     </message>
     <message>
-        <source>Show zRLC denominations list</source>
-        <translation>Visa zRLC valör lista</translation>
+        <source>Show zREA denominations list</source>
+        <translation>Visa zREA valör lista</translation>
     </message>
     <message>
         <source>Show Denominations</source>
         <translation>Visa Valörer</translation>
     </message>
     <message>
-        <source>zRLC minting is DISABLED</source>
-        <translation>zRLC prägling är inaktiverad</translation>
+        <source>zREA minting is DISABLED</source>
+        <translation>zREA prägling är inaktiverad</translation>
     </message>
     <message>
-        <source>zRLC spending is NOT private (links back to the mint transaction)</source>
-        <translation>Att spendera zRLC är INTE privat (länkar tillbaka till den myntade transaktionen)</translation>
+        <source>zREA spending is NOT private (links back to the mint transaction)</source>
+        <translation>Att spendera zREA är INTE privat (länkar tillbaka till den myntade transaktionen)</translation>
     </message>
     <message>
         <source>Denominations with value 5:</source>
@@ -2782,12 +2782,12 @@ Please be patient...</source>
 Ha lite tålamod...</translation>
     </message>
     <message>
-        <source>zRLC Spend #: </source>
-        <translation>zRLC spendering #:</translation>
+        <source>zREA Spend #: </source>
+        <translation>zREA spendering #:</translation>
     </message>
     <message>
-        <source>zRLC Mint</source>
-        <translation>zRLC Prägling</translation>
+        <source>zREA Mint</source>
+        <translation>zREA Prägling</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2802,12 +2802,12 @@ Ha lite tålamod...</translation>
         <translation>Konfigurerat procent mål: &lt;b&gt;</translation>
     </message>
     <message>
-        <source>zRLC is currently disabled due to maintenance.</source>
-        <translation>zRLC är för nuvarande inaktiverat p.g.a. underhåll.</translation>
+        <source>zREA is currently disabled due to maintenance.</source>
+        <translation>zREA är för nuvarande inaktiverat p.g.a. underhåll.</translation>
     </message>
     <message>
-        <source>zRLC is currently undergoing maintenance.</source>
-        <translation>zRLC genomgår för tillfället underhåll.</translation>
+        <source>zREA is currently undergoing maintenance.</source>
+        <translation>zREA genomgår för tillfället underhåll.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -3336,8 +3336,8 @@ Var tålmodig...</translation>
         <translation>Vanlig Backup Sökväg:</translation>
     </message>
     <message>
-        <source>Custom zRLC Backup Path:</source>
-        <translation>Vanlig zRLC Backup Sökväg:</translation>
+        <source>Custom zREA Backup Path:</source>
+        <translation>Vanlig zREA Backup Sökväg:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3804,12 +3804,12 @@ Var tålmodig...</translation>
         <translation>UTXO Storlek:</translation>
     </message>
     <message>
-        <source>0 RLC</source>
-        <translation>0 RLC</translation>
+        <source>0 REA</source>
+        <translation>0 REA</translation>
     </message>
     <message>
-        <source>SwiftX technology allows for near instant transactions - A flat fee of 0.01 RLC applies</source>
-        <translation>SwiftX teknologi tillåter nästan omedelbara transaktioner - En fast avgift på 0.01RLC tillkommer</translation>
+        <source>SwiftX technology allows for near instant transactions - A flat fee of 0.01 REA applies</source>
+        <translation>SwiftX teknologi tillåter nästan omedelbara transaktioner - En fast avgift på 0.01REA tillkommer</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3864,12 +3864,12 @@ Var tålmodig...</translation>
         <translation>Mynt automatiskt valda</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uRLCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uRLCs in fee,&lt;br /&gt;while "at least" pays 1000 uRLCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Om 1000 uRLCs är den valda skräddarsydda avgiften och transaktionen är bara 250 bytes så kommer "per kilobyte" bara betala 250 uRLCs i avgift,&lt;br /&gt;medans "minst" betalar 1000 uRLCs. För transaktioner större än en kilobyte så betalar båda per kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uREAs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uREAs in fee,&lt;br /&gt;while "at least" pays 1000 uREAs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Om 1000 uREAs är den valda skräddarsydda avgiften och transaktionen är bara 250 bytes så kommer "per kilobyte" bara betala 250 uREAs i avgift,&lt;br /&gt;medans "minst" betalar 1000 uREAs. För transaktioner större än en kilobyte så betalar båda per kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uRLCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uRLCs in fee,&lt;br /&gt;while "total at least" pays 1000 uRLCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Om 1000 uRLCs är den valda skräddarsydda avgiften och transaktionen är bara 250 bytes så kommer "per kilobyte" bara betala 250 uRLCs i avgift,&lt;br /&gt;medans "minst totalt" betalar 1000 uRLCs. För transaktioner större än en kilobyte så betalar båda per kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uREAs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uREAs in fee,&lt;br /&gt;while "total at least" pays 1000 uREAs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Om 1000 uREAs är den valda skräddarsydda avgiften och transaktionen är bara 250 bytes så kommer "per kilobyte" bara betala 250 uREAs i avgift,&lt;br /&gt;medans "minst totalt" betalar 1000 uREAs. För transaktioner större än en kilobyte så betalar båda per kilobyte.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for RealCoin transactions than the network can process.</source>
@@ -3920,8 +3920,8 @@ Var tålmodig...</translation>
         <translation>Lägg till &amp;Mottagare</translation>
     </message>
     <message>
-        <source>Anonymized RLC</source>
-        <translation>Anonymiserade RLC</translation>
+        <source>Anonymized REA</source>
+        <translation>Anonymiserade REA</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -4580,12 +4580,12 @@ Var tålmodig...</translation>
         <translation>Mottaget via Fördunkling</translation>
     </message>
     <message>
-        <source>RLC Stake</source>
-        <translation>RLC staking</translation>
+        <source>REA Stake</source>
+        <translation>REA staking</translation>
     </message>
     <message>
-        <source>zRLC Stake</source>
-        <translation>zRLC Staking</translation>
+        <source>zREA Stake</source>
+        <translation>zREA Staking</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
@@ -4604,32 +4604,32 @@ Var tålmodig...</translation>
         <translation>Obfuscation Skapa tecken</translation>
     </message>
     <message>
-        <source>Converted RLC to zRLC</source>
-        <translation>Konvertera RLC till zRLC</translation>
+        <source>Converted REA to zREA</source>
+        <translation>Konvertera REA till zREA</translation>
     </message>
     <message>
-        <source>Spent zRLC</source>
-        <translation>Spendera zRLC</translation>
+        <source>Spent zREA</source>
+        <translation>Spendera zREA</translation>
     </message>
     <message>
-        <source>Received RLC from zRLC</source>
-        <translation>Mottog RLC från zRLC</translation>
+        <source>Received REA from zREA</source>
+        <translation>Mottog REA från zREA</translation>
     </message>
     <message>
-        <source>Minted Change as zRLC from zRLC Spend</source>
-        <translation>Myntad Växel som zRLC från zRLC Spendering</translation>
+        <source>Minted Change as zREA from zREA Spend</source>
+        <translation>Myntad Växel som zREA från zREA Spendering</translation>
     </message>
     <message>
-        <source>Converted zRLC to RLC</source>
-        <translation>Konverterad zRLC till RLC</translation>
+        <source>Converted zREA to REA</source>
+        <translation>Konverterad zREA till REA</translation>
     </message>
     <message>
-        <source>Anonymous (zRLC Transaction)</source>
-        <translation>Anonym (zRLC Transaktion)</translation>
+        <source>Anonymous (zREA Transaction)</source>
+        <translation>Anonym (zREA Transaktion)</translation>
     </message>
     <message>
-        <source>Anonymous (zRLC Stake)</source>
-        <translation>Anonym (zRLC Stake)</translation>
+        <source>Anonymous (zREA Stake)</source>
+        <translation>Anonym (zREA Stake)</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -4843,12 +4843,12 @@ Var tålmodig...</translation>
         <translation>Exportering Lyckat</translation>
     </message>
     <message>
-        <source>Received RLC from zRLC</source>
-        <translation>Mottog RLC från zRLC</translation>
+        <source>Received REA from zREA</source>
+        <translation>Mottog REA från zREA</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zRLC</source>
-        <translation>Zerocoin spendera, Växel i zRLC</translation>
+        <source>Zerocoin Spend, Change in zREA</source>
+        <translation>Zerocoin spendera, Växel i zREA</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
@@ -4884,8 +4884,8 @@ Var tålmodig...</translation>
         <translation>Skicka Mynt</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 RLC.</source>
-        <translation>wiftX stödjer inte att skicka så höga värden än. Transaktioner är för nuvarande begränsade till %1 RLC.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 REA.</source>
+        <translation>wiftX stödjer inte att skicka så höga värden än. Transaktioner är för nuvarande begränsade till %1 REA.</translation>
     </message>
 </context>
 <context>
@@ -4918,8 +4918,8 @@ Var tålmodig...</translation>
 <context>
     <name>ZPivControlDialog</name>
     <message>
-        <source>Select zRLC to Spend</source>
-        <translation>Välj zRLC att Spendera</translation>
+        <source>Select zREA to Spend</source>
+        <translation>Välj zREA att Spendera</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4930,8 +4930,8 @@ Var tålmodig...</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zRLC</source>
-        <translation>zRLC</translation>
+        <source>zREA</source>
+        <translation>zREA</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4993,16 +4993,16 @@ Var tålmodig...</translation>
         <translation>Distribuerad under MIT mjukvarulicensen, se medföljande fil COPYING eller &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zRLC minting (0-1, default: %u)</source>
-        <translation>Aktivera automatisk plånboksbackup efter varje zRLC minting (0-1, standard: %u)</translation>
+        <source>Enable automatic wallet backups triggered after each zREA minting (0-1, default: %u)</source>
+        <translation>Aktivera automatisk plånboksbackup efter varje zREA minting (0-1, standard: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for RLC inputs (0-1, default: %u)</source>
-        <translation>Aktivera eller avaktivera staking funktionalitet för RLC inmatningar (0-1, standard: %u)</translation>
+        <source>Enable or disable staking functionality for REA inputs (0-1, default: %u)</source>
+        <translation>Aktivera eller avaktivera staking funktionalitet för REA inmatningar (0-1, standard: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zRLC inputs (0-1, default: %u)</source>
-        <translation>Aktivera eller avaktivera staking funktionalitet för zRLC inmatningar (0-1, standard: %u)</translation>
+        <source>Enable or disable staking functionality for zREA inputs (0-1, default: %u)</source>
+        <translation>Aktivera eller avaktivera staking funktionalitet för zREA inmatningar (0-1, standard: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -5037,12 +5037,12 @@ Var tålmodig...</translation>
         <translation>Exekvera kommando när den bästa block ändras (%s i cmd är utbytt mot block hash)</translation>
     </message>
     <message>
-        <source>Fees (in RLC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Avgifter (i RLC/Kb) mindre än detta anses vara noll avgift i vidarebefodring (standard: %s)</translation>
+        <source>Fees (in REA/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Avgifter (i REA/Kb) mindre än detta anses vara noll avgift i vidarebefodring (standard: %s)</translation>
     </message>
     <message>
-        <source>Fees (in RLC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Avgifter (i RLC/Kb) mindre än detta anses vara noll avgift i transaktionsskapelse (standard: %s)</translation>
+        <source>Fees (in REA/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Avgifter (i REA/Kb) mindre än detta anses vara noll avgift i transaktionsskapelse (standard: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -5149,12 +5149,12 @@ Var tålmodig...</translation>
         <translation>Kan ej lokalisera tillräckligt Fördunklingsdenominationerade pengar för denna transaktion.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 RLC.</source>
-        <translation>Kan ej lokalisera tillräckligt Fördunkling icke-denominationerade pengar för denna transaktion som inte är 10000 RLC.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 REA.</source>
+        <translation>Kan ej lokalisera tillräckligt Fördunkling icke-denominationerade pengar för denna transaktion som inte är 10000 REA.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 RLC.</source>
-        <translation>Kan inte hitta tillräckligt med pengar för denna transaktion som inte är 10000 RLC.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 REA.</source>
+        <translation>Kan inte hitta tillräckligt med pengar för denna transaktion som inte är 10000 REA.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5441,8 +5441,8 @@ Var tålmodig...</translation>
         <translation>Misslyckades läsa block</translation>
     </message>
     <message>
-        <source>Fee (in RLC/kB) to add to transactions you send (default: %s)</source>
-        <translation>Avgift (i RLC/kB) för att lägga till transaktioner you skicka (standard: %s)</translation>
+        <source>Fee (in REA/kB) to add to transactions you send (default: %s)</source>
+        <translation>Avgift (i REA/kB) för att lägga till transaktioner you skicka (standard: %s)</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
@@ -5545,8 +5545,8 @@ Var tålmodig...</translation>
         <translation>Procent automatiskt mintad Zerocoin (1-100, default: %u)</translation>
     </message>
     <message>
-        <source>Reindex the RLC and zRLC money supply statistics</source>
-        <translation>Indexera RLC och zRLC pengarna tillgång statistik på nytt</translation>
+        <source>Reindex the REA and zREA money supply statistics</source>
+        <translation>Indexera REA och zREA pengarna tillgång statistik på nytt</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -5625,8 +5625,8 @@ Var tålmodig...</translation>
         <translation>Valör aatt föredra för automatiskt mintad Zerocoin (1/5/10/50/100/500/1000/5000), 0 för ingen preface. standard: %u)</translation>
     </message>
     <message>
-        <source>Specify custom backup path to add a copy of any automatic zRLC backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Specifiera skräddarsydd backup väg att lägga till en kopia av alla automatisk zRLC backup. Om satt som dir, varje backup genererar en tidsstämplad fil. Om satt som fil, skriver över den filen vid varje backup. Om backupvägen också är satt, 4 backups kommer hända</translation>
+        <source>Specify custom backup path to add a copy of any automatic zREA backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <translation>Specifiera skräddarsydd backup väg att lägga till en kopia av alla automatisk zREA backup. Om satt som dir, varje backup genererar en tidsstämplad fil. Om satt som fil, skriver över den filen vid varje backup. Om backupvägen också är satt, 4 backups kommer hända</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
@@ -6041,8 +6041,8 @@ Var tålmodig...</translation>
         <translation>Synkroniserar sporks...</translation>
     </message>
     <message>
-        <source>Syncing zRLC wallet...</source>
-        <translation>Synkroniserar zRLC plånbok...</translation>
+        <source>Syncing zREA wallet...</source>
+        <translation>Synkroniserar zREA plånbok...</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>
@@ -6153,8 +6153,8 @@ Var tålmodig...</translation>
         <translation>Användarnamn för JSON-RPC anslutningar</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zRLC</source>
-        <translation>Värde är under den minsta tillgängliga valören (=1) av zRLC</translation>
+        <source>Value is below the smallest available denomination (= 1) of zREA</source>
+        <translation>Värde är under den minsta tillgängliga valören (=1) av zREA</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

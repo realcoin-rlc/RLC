@@ -2,10 +2,10 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "zrlccontroldialog.h"
-#include "ui_zrlccontroldialog.h"
+#include "zreacontroldialog.h"
+#include "ui_zreacontroldialog.h"
 
-#include "zrlc/accumulators.h"
+#include "zrea/accumulators.h"
 #include "main.h"
 #include "walletmodel.h"
 
@@ -110,9 +110,9 @@ void ZPivControlDialog::updateList()
         itemMint->setData(COLUMN_CONFIRMATIONS, Qt::UserRole, QVariant((qlonglong) nConfirmations));
 
         {
-            LOCK(pwalletMain->zrlcTracker->cs_spendcache);
+            LOCK(pwalletMain->zreaTracker->cs_spendcache);
 
-            CoinWitnessData *witnessData = pwalletMain->zrlcTracker->GetSpendCache(mint.hashStake);
+            CoinWitnessData *witnessData = pwalletMain->zreaTracker->GetSpendCache(mint.hashStake);
             if (witnessData->nHeightAccStart > 0  && witnessData->nHeightAccEnd > 0) {
                 int nPercent = std::max(0, std::min(100, (int)((double)(witnessData->nHeightAccEnd - witnessData->nHeightAccStart) / (double)(nBestHeight - witnessData->nHeightAccStart - 220) * 100)));
                 QString percent = QString::number(nPercent) + QString("%");
@@ -142,9 +142,9 @@ void ZPivControlDialog::updateList()
             if(nConfirmations < Params().Zerocoin_MintRequiredConfirmations())
                 strReason = strprintf("Needs %d more confirmations", Params().Zerocoin_MintRequiredConfirmations() - nConfirmations);
             else if (model->getEncryptionStatus() == WalletModel::EncryptionStatus::Locked)
-                strReason = "Your wallet is locked. Impossible to precompute or spend zRLC.";
+                strReason = "Your wallet is locked. Impossible to precompute or spend zREA.";
             else if (!mint.isSeedCorrect)
-                strReason = "The zRLC seed used to mint this zRLC is not the same as currently hold in the wallet";
+                strReason = "The zREA seed used to mint this zREA is not the same as currently hold in the wallet";
             else
                 strReason = strprintf("Needs %d more mints added to network", Params().Zerocoin_RequiredAccumulation());
 

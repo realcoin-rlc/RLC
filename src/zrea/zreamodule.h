@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 //
-#ifndef RealCoin_ZRLCMODULE_H
-#define RealCoin_ZRLCMODULE_H
+#ifndef RealCoin_ZREAMODULE_H
+#define RealCoin_ZREAMODULE_H
 
 #include "libzerocoin/bignum.h"
 #include "libzerocoin/Denominations.h"
@@ -16,7 +16,7 @@
 #include "uint256.h"
 #include <streams.h>
 #include <utilstrencodings.h>
-#include "zrlc/zerocoin.h"
+#include "zrea/zerocoin.h"
 #include "chainparams.h"
 
 static int const COIN_SPEND_PUBLIC_SPEND_VERSION = 3;
@@ -72,7 +72,7 @@ public:
 
 class CValidationState;
 
-namespace ZRLCModule {
+namespace ZREAModule {
     bool createInput(CTxIn &in, CZerocoinMint& mint, uint256 hashTxOut);
     bool parseCoinSpend(const CTxIn &in, const CTransaction& tx, const CTxOut &prevOut, PublicCoinSpend& publicCoinSpend);
     bool validateInput(const CTxIn &in, const CTxOut &prevOut, const CTransaction& tx, PublicCoinSpend& ret);
@@ -89,4 +89,4 @@ namespace ZRLCModule {
 };
 
 
-#endif //RealCoin_ZRLCMODULE_H
+#endif //RealCoin_ZREAMODULE_H

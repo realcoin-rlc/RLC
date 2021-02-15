@@ -176,16 +176,16 @@
         <translation>Potvrdi šifriranje novčanika</translation>
     </message>
     <message>
-        <source>RealCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RLCs from being stolen by malware infecting your computer.</source>
-        <translation>RealCoin se sada zatvara kako bi dovršio proces šifriranja. Ne zaboravite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše RLC od krađe zlonamjernog softvera koji zarazi vaše računalo.</translation>
+        <source>RealCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your REAs from being stolen by malware infecting your computer.</source>
+        <translation>RealCoin se sada zatvara kako bi dovršio proces šifriranja. Ne zaboravite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše REA od krađe zlonamjernog softvera koji zarazi vaše računalo.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Jeste li sigurni da želite šifrirati svoj novčanik?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR RLC&lt;/b&gt;!</source>
-        <translation>Upozorenje: Ako šifrirate svoj novčanik i izgubite zaporku, 1 izgubit ćete sve Vaše RLCove 1 !</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REA&lt;/b&gt;!</source>
+        <translation>Upozorenje: Ako šifrirate svoj novčanik i izgubite zaporku, 1 izgubit ćete sve Vaše REAove 1 !</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -433,8 +433,8 @@
         <translation>Pregled povijesti transakcija</translation>
     </message>
     <message>
-        <source>Privacy Actions for zRLC</source>
-        <translation>Postavke privatnosti za zRLC</translation>
+        <source>Privacy Actions for zREA</source>
+        <translation>Postavke privatnosti za zREA</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -730,7 +730,7 @@
     </message>
     <message>
         <source>RealCoin Core client</source>
-        <translation>RLCIX Core Klijent</translation>
+        <translation>REAIX Core Klijent</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -1106,8 +1106,8 @@ Višestruko slanje: %1</translation>
         <translation>Ova oznaka postaje crvena ako neki primatelj prima iznos manji od %1.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 urlc per input.</source>
-        <translation>Može varirati +/- %1 urlc po unosu.</translation>
+        <source>Can vary +/- %1 urea per input.</source>
+        <translation>Može varirati +/- %1 urea po unosu.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1629,8 +1629,8 @@ Budite strpljivi nakon što kliknete uvoz.</translation>
         <translation>Adresa / iznos:</translation>
     </message>
     <message>
-        <source>Add destinations to send RLC to</source>
-        <translation>Dodajte odredišta za slanje RLC
+        <source>Add destinations to send REA to</source>
+        <translation>Dodajte odredišta za slanje REA
 </translation>
     </message>
     <message>
@@ -1831,28 +1831,28 @@ https://www.transifex.com/realcoin-project/realcoin-project-translations</transl
 </translation>
     </message>
     <message>
-        <source>Enable automatic minting of RLC units to zRLC</source>
-        <translation>Omogućite automint RLC jedinica na zRLC</translation>
+        <source>Enable automatic minting of REA units to zREA</source>
+        <translation>Omogućite automint REA jedinica na zREA</translation>
     </message>
     <message>
-        <source>Enable zRLC Automint</source>
-        <translation>Omogući zRLC Automint</translation>
+        <source>Enable zREA Automint</source>
+        <translation>Omogući zREA Automint</translation>
     </message>
     <message>
-        <source>Percentage of incoming RLC which get automatically converted to zRLC via Zerocoin Protocol (min: 10%)</source>
-        <translation>Postotak dolaznih RLC koji se automatski pretvara u zRLC putem protokola Zerocoin (min: 10%)</translation>
+        <source>Percentage of incoming REA which get automatically converted to zREA via Zerocoin Protocol (min: 10%)</source>
+        <translation>Postotak dolaznih REA koji se automatski pretvara u zREA putem protokola Zerocoin (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zRLC</source>
-        <translation>Postotak automatiziranog zRLC</translation>
+        <source>Percentage of autominted zREA</source>
+        <translation>Postotak automatiziranog zREA</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough RLC for this denomination is available</source>
-        <translation>Pričekajte s automatskom pretvorbom u Zerocoin dok ne bude dostupno dovoljno RLC za apoen</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough REA for this denomination is available</source>
+        <translation>Pričekajte s automatskom pretvorbom u Zerocoin dok ne bude dostupno dovoljno REA za apoen</translation>
     </message>
     <message>
-        <source>Preferred Automint zRLC Denomination</source>
-        <translation>Preferirana Automint zRLC denominacijad</translation>
+        <source>Preferred Automint zREA Denomination</source>
+        <translation>Preferirana Automint zREA denominacijad</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
@@ -2010,8 +2010,8 @@ https://www.transifex.com/realcoin-project/realcoin-project-translations</transl
         <translation>Ukupni saldo, uključujući sve nedostupne kovanice.</translation>
     </message>
     <message>
-        <source>RLC Balance</source>
-        <translation>RLC Saldo</translation>
+        <source>REA Balance</source>
+        <translation>REA Saldo</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2038,14 +2038,14 @@ https://www.transifex.com/realcoin-project/realcoin-project-translations</transl
         <translation>Uključena je vaša trenutna bilanca RealCoin, nepotvrđene i nezrele transakcije</translation>
     </message>
     <message>
-        <source>zRLC Balance</source>
-        <translation>zRLC Bilanca</translation>
+        <source>zREA Balance</source>
+        <translation>zREA Bilanca</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zRLC are spendable.</source>
+These zREA are spendable.</source>
         <translation>Mature: više od 20 potvrda i više od 1 mint od iste denominacije nakon što je mintan.
-Ti zRLCs se mogu potrošiti.</translation>
+Ti zREAs se mogu potrošiti.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2098,8 +2098,8 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>Po potrošiti:</translation>
     </message>
     <message>
-        <source>Locked RLC or Masternode collaterals. These are excluded from zRLC minting.</source>
-        <translation>Zaključani RLC ili Masternode kolateral. Oni su isključeni iz zRLC kovanja.</translation>
+        <source>Locked REA or Masternode collaterals. These are excluded from zREA minting.</source>
+        <translation>Zaključani REA ili Masternode kolateral. Oni su isključeni iz zREA kovanja.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2110,8 +2110,8 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>Nepotvrđeno:</translation>
     </message>
     <message>
-        <source>Your current zRLC balance, unconfirmed and immature zRLC included.</source>
-        <translation>Vaša trenutačna zRLC bilanca, nepotvrđena i nezrela zRLC.</translation>
+        <source>Your current zREA balance, unconfirmed and immature zREA included.</source>
+        <translation>Vaša trenutačna zREA bilanca, nepotvrđena i nezrela zREA.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2122,10 +2122,10 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>nije sinkronizirano</translation>
     </message>
     <message>
-        <source>Current percentage of zRLC.
+        <source>Current percentage of zREA.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Trenutni postotak zRLC.
+        <translation>Trenutni postotak zREA.
 Ako je omogućeno automatsko navođenje, ovaj postotak će se podmiriti oko konfiguriranog postotka automatskog navođenja (zadano = 10%).
 </translation>
     </message>
@@ -2269,8 +2269,8 @@ Da biste omogućili, promjenite postavke AutoMint 'enablezeromint=0' na 'enablez
         <translation>0</translation>
     </message>
     <message>
-        <source>zRLC</source>
-        <translation>zRLC</translation>
+        <source>zREA</source>
+        <translation>zREA</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2297,12 +2297,12 @@ Da biste omogućili, promjenite postavke AutoMint 'enablezeromint=0' na 'enablez
         <translation>PRIVATNOST</translation>
     </message>
     <message>
-        <source>zRLC Control</source>
-        <translation>Upravljanje zRLC</translation>
+        <source>zREA Control</source>
+        <translation>Upravljanje zREA</translation>
     </message>
     <message>
-        <source>zRLC Selected:</source>
-        <translation>zRLC Odabrani:</translation>
+        <source>zREA Selected:</source>
+        <translation>zREA Odabrani:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2317,24 +2317,24 @@ Da biste omogućili, promjenite postavke AutoMint 'enablezeromint=0' na 'enablez
         <translation>Potroši Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zRLC for spending</source>
-        <translation>Dostupni (zreli) zRLC za potrošnju</translation>
+        <source>Available (mature and spendable) zREA for spending</source>
+        <translation>Dostupni (zreli) zREA za potrošnju</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Dostupna Bilanca:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zRLC for spending
+        <source>Available (mature and spendable) zREA for spending
 
-zRLC are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Dostupni (zreli) zRLC za potrošnju
+zREA are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Dostupni (zreli) zREA za potrošnju
 
-zRLC su zreli kada imaju više od 20 potvrda I više od 2 mint od iste denominacije nakon što su bili mintani</translation>
+zREA su zreli kada imaju više od 20 potvrda I više od 2 mint od iste denominacije nakon što su bili mintani</translation>
     </message>
     <message>
-        <source>0 zRLC</source>
-        <translation>0 zRLC</translation>
+        <source>0 zREA</source>
+        <translation>0 zREA</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -2393,8 +2393,8 @@ zRLC su zreli kada imaju više od 20 potvrda I više od 2 mint od iste denominac
         <translation>Statistike Zerocoina:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zRLC</source>
-        <translation>Ukupni saldo uključujući nepotvrđeni i nedovršeni zRLC</translation>
+        <source>Total Balance including unconfirmed and immature zREA</source>
+        <translation>Ukupni saldo uključujući nepotvrđeni i nedovršeni zREA</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2415,24 +2415,24 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zRLC minting.
+        <source>Show the current status of automatic zREA minting.
 
 To change the status (restart required):
 - enable: add 'enablezeromint=1' to realcoin.conf
 - disable: add 'enablezeromint=0' to realcoin.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zRLC
+- menu Settings-&gt;Options-&gt;Percentage of autominted zREA
 
 </source>
-        <translation>Pokažite trenutačni status automatskog zRLC mintanja.
+        <translation>Pokažite trenutačni status automatskog zREA mintanja.
 
 Da biste promijenili status (potrebno je ponovno pokretanje):
 - omogući: dodajte 'enablezeromint = 1' u realcoin.conf
 - onemogućiti: dodajte 'enablezeromint = 0' na realcoin.conf
 
 Promjena postotka (nije potrebno ponovno pokretanje):
-- izbornik Postavke-&gt; Opcije-&gt; Postotak zRLC</translation>
+- izbornik Postavke-&gt; Opcije-&gt; Postotak zREA</translation>
     </message>
     <message>
         <source>AutoMint Status</source>
@@ -2604,12 +2604,12 @@ Please be patient...</source>
         <translation>Pokretanje ResetMintZerocoin: ponovno skeniranje potpunog blockchain, to će trajati i do 30 minuta, ovisno o vašem hardveru.</translation>
     </message>
     <message>
-        <source>zRLC Spend #: </source>
-        <translation>zRLC utrošeno #: </translation>
+        <source>zREA Spend #: </source>
+        <translation>zREA utrošeno #: </translation>
     </message>
     <message>
-        <source>zRLC Mint</source>
-        <translation>zRLC Mint</translation>
+        <source>zREA Mint</source>
+        <translation>zREA Mint</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2624,12 +2624,12 @@ Please be patient...</source>
         <translation> Konfigirani ciljani postotak: &lt;b&gt;</translation>
     </message>
     <message>
-        <source>zRLC is currently disabled due to maintenance.</source>
-        <translation>Zbog održavanja zRLC je trenutačno onemogućen.</translation>
+        <source>zREA is currently disabled due to maintenance.</source>
+        <translation>Zbog održavanja zREA je trenutačno onemogućen.</translation>
     </message>
     <message>
-        <source>zRLC is currently undergoing maintenance.</source>
-        <translation>Radovi u tijeku na zRLC.</translation>
+        <source>zREA is currently undergoing maintenance.</source>
+        <translation>Radovi u tijeku na zREA.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -3075,8 +3075,8 @@ Please be patient...</source>
         <translation>Put prilagođenog sigurnosnog kopiranja:</translation>
     </message>
     <message>
-        <source>Custom zRLC Backup Path:</source>
-        <translation>Prilagođeni put zRLC sigurnosne kopije:</translation>
+        <source>Custom zREA Backup Path:</source>
+        <translation>Prilagođeni put zREA sigurnosne kopije:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3524,8 +3524,8 @@ Please be patient...</source>
         <translation>Veličina UTXO:</translation>
     </message>
     <message>
-        <source>0 RLC</source>
-        <translation>0 RLC</translation>
+        <source>0 REA</source>
+        <translation>0 REA</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3582,12 +3582,12 @@ Please be patient...</source>
         <translation>Kovanice se automatski odabiru</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uRLCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uRLCs in fee,&lt;br /&gt;while "at least" pays 1000 uRLCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ako je prilagođena naknada postavljena na 1000 uRLC-ova, a transakcija je samo 250 bajta, tada "po kilobajtu" se plaća samo 250 uRLC-a, dok se "barem" plaća 1000 uRLC-ova. Za transakcije veće od kilobajta, oboje plaćaju po kilobajtu.</translation>
+        <source>If the custom fee is set to 1000 uREAs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uREAs in fee,&lt;br /&gt;while "at least" pays 1000 uREAs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ako je prilagođena naknada postavljena na 1000 uREA-ova, a transakcija je samo 250 bajta, tada "po kilobajtu" se plaća samo 250 uREA-a, dok se "barem" plaća 1000 uREA-ova. Za transakcije veće od kilobajta, oboje plaćaju po kilobajtu.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uRLCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uRLCs in fee,&lt;br /&gt;while "total at least" pays 1000 uRLCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ako je prilagođena naknada postavljena na 1000 uRLC, a transakcija je samo 250 bajta, tada "po kilobajtu" plaća se samo 250 uRLC-ova, a "ukupno barem" plaća 1000 uRLC-ova. Za transakcije veće od kilobajta, oboje plaćaju po kilobajtu.</translation>
+        <source>If the custom fee is set to 1000 uREAs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uREAs in fee,&lt;br /&gt;while "total at least" pays 1000 uREAs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ako je prilagođena naknada postavljena na 1000 uREA, a transakcija je samo 250 bajta, tada "po kilobajtu" plaća se samo 250 uREA-ova, a "ukupno barem" plaća 1000 uREA-ova. Za transakcije veće od kilobajta, oboje plaćaju po kilobajtu.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for RealCoin transactions than the network can process.</source>
@@ -3638,8 +3638,8 @@ Please be patient...</source>
         <translation>Dodaj primatelja</translation>
     </message>
     <message>
-        <source>Anonymized RLC</source>
-        <translation>Anonimiziran RLC</translation>
+        <source>Anonymized REA</source>
+        <translation>Anonimiziran REA</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -4283,12 +4283,12 @@ Please be patient...</source>
         <translation>Zaprimljeno preko Zametanja</translation>
     </message>
     <message>
-        <source>RLC Stake</source>
-        <translation>RLC Stake</translation>
+        <source>REA Stake</source>
+        <translation>REA Stake</translation>
     </message>
     <message>
-        <source>zRLC Stake</source>
-        <translation>zRLC Stake</translation>
+        <source>zREA Stake</source>
+        <translation>zREA Stake</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
@@ -4307,32 +4307,32 @@ Please be patient...</source>
         <translation>Prikrivanje Stvara Denominacije</translation>
     </message>
     <message>
-        <source>Converted RLC to zRLC</source>
-        <translation>Pretvoreni RLC u zRLC</translation>
+        <source>Converted REA to zREA</source>
+        <translation>Pretvoreni REA u zREA</translation>
     </message>
     <message>
-        <source>Spent zRLC</source>
-        <translation>Utrošeni zRLC</translation>
+        <source>Spent zREA</source>
+        <translation>Utrošeni zREA</translation>
     </message>
     <message>
-        <source>Received RLC from zRLC</source>
-        <translation>Primljeni RLC od zRLC</translation>
+        <source>Received REA from zREA</source>
+        <translation>Primljeni REA od zREA</translation>
     </message>
     <message>
-        <source>Minted Change as zRLC from zRLC Spend</source>
-        <translation>Mintana razlika zRLC od zRLC Utroška</translation>
+        <source>Minted Change as zREA from zREA Spend</source>
+        <translation>Mintana razlika zREA od zREA Utroška</translation>
     </message>
     <message>
-        <source>Converted zRLC to RLC</source>
-        <translation>Pretvoreni zRLC u RLC</translation>
+        <source>Converted zREA to REA</source>
+        <translation>Pretvoreni zREA u REA</translation>
     </message>
     <message>
-        <source>Anonymous (zRLC Transaction)</source>
-        <translation>Anonimno (zRLC Transakcija)</translation>
+        <source>Anonymous (zREA Transaction)</source>
+        <translation>Anonimno (zREA Transakcija)</translation>
     </message>
     <message>
-        <source>Anonymous (zRLC Stake)</source>
-        <translation>Anonimno (zRLC Stake)</translation>
+        <source>Anonymous (zREA Stake)</source>
+        <translation>Anonimno (zREA Stake)</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -4542,12 +4542,12 @@ Please be patient...</source>
         <translation>Izvoz uspješan</translation>
     </message>
     <message>
-        <source>Received RLC from zRLC</source>
-        <translation>Primljeni RLC od zRLC</translation>
+        <source>Received REA from zREA</source>
+        <translation>Primljeni REA od zREA</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zRLC</source>
-        <translation>Zerocoin Utrošeno, Razlika (ostatak) u zRLC</translation>
+        <source>Zerocoin Spend, Change in zREA</source>
+        <translation>Zerocoin Utrošeno, Razlika (ostatak) u zREA</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
@@ -4583,8 +4583,8 @@ Please be patient...</source>
         <translation>Salji novac</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 RLC.</source>
-        <translation>SwiftX ne podržava slanje visokih vrijednosti. Transakcije su trenutačno ograničene na %1 RLC.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 REA.</source>
+        <translation>SwiftX ne podržava slanje visokih vrijednosti. Transakcije su trenutačno ograničene na %1 REA.</translation>
     </message>
 </context>
 <context>
@@ -4617,8 +4617,8 @@ Please be patient...</source>
 <context>
     <name>ZPivControlDialog</name>
     <message>
-        <source>Select zRLC to Spend</source>
-        <translation>Odabrani zRLC za utrošiti</translation>
+        <source>Select zREA to Spend</source>
+        <translation>Odabrani zREA za utrošiti</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4629,8 +4629,8 @@ Please be patient...</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zRLC</source>
-        <translation>zRLC</translation>
+        <source>zREA</source>
+        <translation>zREA</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4692,16 +4692,16 @@ Please be patient...</source>
         <translation>Distribuirano pod MIT softverskom licencom, pogledajte priloženu datoteku COPYING ili &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zRLC minting (0-1, default: %u)</source>
-        <translation>Omogući automatsko sigurnosno kopiranje novčanika nakon svakog zRLC mintanja (0-1, default: %u)</translation>
+        <source>Enable automatic wallet backups triggered after each zREA minting (0-1, default: %u)</source>
+        <translation>Omogući automatsko sigurnosno kopiranje novčanika nakon svakog zREA mintanja (0-1, default: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for RLC inputs (0-1, default: %u)</source>
-        <translation>Omogući ili onemogući staking funkcionalnosti za RLC unose (0-1, default: %u)</translation>
+        <source>Enable or disable staking functionality for REA inputs (0-1, default: %u)</source>
+        <translation>Omogući ili onemogući staking funkcionalnosti za REA unose (0-1, default: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zRLC inputs (0-1, default: %u)</source>
-        <translation>Omogući ili onemogući staking funkcionalnosti za zRLC unose (0-1, default: %u)</translation>
+        <source>Enable or disable staking functionality for zREA inputs (0-1, default: %u)</source>
+        <translation>Omogući ili onemogući staking funkcionalnosti za zREA unose (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -4736,12 +4736,12 @@ Please be patient...</source>
         <translation>Izvrši naredbu kada se promijeni najbolji blok (%s u cmd zamjenjuje se blokovskim raspršivanjem)</translation>
     </message>
     <message>
-        <source>Fees (in RLC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Naknade (u RLC / Kb) manje od toga smatraju se nulom naknadom za prosljeđivanje (zadano: %s)</translation>
+        <source>Fees (in REA/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Naknade (u REA / Kb) manje od toga smatraju se nulom naknadom za prosljeđivanje (zadano: %s)</translation>
     </message>
     <message>
-        <source>Fees (in RLC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Naknade (u RLC / Kb) manje od toga smatraju se nulom naknadom za izradu transakcija (zadano: %s)</translation>
+        <source>Fees (in REA/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Naknade (u REA / Kb) manje od toga smatraju se nulom naknadom za izradu transakcija (zadano: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4844,12 +4844,12 @@ Please be patient...</source>
         <translation>Nije moguće locirati dovoljno sredstava s domenom Prikrivanja za tu transakciju.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 RLC.</source>
-        <translation>Nije moguće pronaći dovoljno prikrivenih sredstava koja nisu denominirana za ovu transakciju koja nisu jednaka 10000 RLC.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 REA.</source>
+        <translation>Nije moguće pronaći dovoljno prikrivenih sredstava koja nisu denominirana za ovu transakciju koja nisu jednaka 10000 REA.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 RLC.</source>
-        <translation>Nije moguće pronaći dovoljno sredstava za ovu transakciju koja nije jednaka 10000 RLC.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 REA.</source>
+        <translation>Nije moguće pronaći dovoljno sredstava za ovu transakciju koja nije jednaka 10000 REA.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5129,8 +5129,8 @@ Please be patient...</source>
         <translation>Greška čitanja bloka</translation>
     </message>
     <message>
-        <source>Fee (in RLC/kB) to add to transactions you send (default: %s)</source>
-        <translation>Naknada (u RLC / kB) za dodavanje transakcija koje šaljete (zadano: %s)</translation>
+        <source>Fee (in REA/kB) to add to transactions you send (default: %s)</source>
+        <translation>Naknada (u REA / kB) za dodavanje transakcija koje šaljete (zadano: %s)</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
@@ -5233,8 +5233,8 @@ Please be patient...</source>
         <translation>Postotak automatskog kovanog Zerocoina (1-100, zadano: %u)</translation>
     </message>
     <message>
-        <source>Reindex the RLC and zRLC money supply statistics</source>
-        <translation>Ponovno indeksirati statistiku RLC i zRLC ponude novca</translation>
+        <source>Reindex the REA and zREA money supply statistics</source>
+        <translation>Ponovno indeksirati statistiku REA i zREA ponude novca</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -5308,8 +5308,8 @@ Please be patient...</source>
         <translation>Preferirana denominacija za automatski ovjereni Zerocoin (1/5/10/50/100/500/1000/5000), 0 bez preferencije. zadana vrijednost: %u)</translation>
     </message>
     <message>
-        <source>Specify custom backup path to add a copy of any automatic zRLC backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Navedite put prilagođenog sigurnosnog kopiranja da biste dodali kopiju bilo koje automatske zRLC sigurnosne kopije. Ako je postavljeno kao dir, svaka sigurnosna kopija generira vremensku datoteku. Ako je postavljen kao datoteka, prepisat će na tu datoteku svaku kopiju. Ako je postavljen backuppath, dogodit će se 4 sigurnosne kopije</translation>
+        <source>Specify custom backup path to add a copy of any automatic zREA backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <translation>Navedite put prilagođenog sigurnosnog kopiranja da biste dodali kopiju bilo koje automatske zREA sigurnosne kopije. Ako je postavljeno kao dir, svaka sigurnosna kopija generira vremensku datoteku. Ako je postavljen kao datoteka, prepisat će na tu datoteku svaku kopiju. Ako je postavljen backuppath, dogodit će se 4 sigurnosne kopije</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
@@ -5720,8 +5720,8 @@ Please be patient...</source>
         <translation>Sinkronizacija sporka...</translation>
     </message>
     <message>
-        <source>Syncing zRLC wallet...</source>
-        <translation>Sinkronizacija zRLC novčanika...</translation>
+        <source>Syncing zREA wallet...</source>
+        <translation>Sinkronizacija zREA novčanika...</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>
@@ -5828,8 +5828,8 @@ Please be patient...</source>
         <translation>Korisničko ime za JSON-RPC veze</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zRLC</source>
-        <translation>Vrijednost je niža od najmanje dostupne denominacije (= 1) zRLC-a</translation>
+        <source>Value is below the smallest available denomination (= 1) of zREA</source>
+        <translation>Vrijednost je niža od najmanje dostupne denominacije (= 1) zREA-a</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

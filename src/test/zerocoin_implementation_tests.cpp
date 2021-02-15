@@ -7,16 +7,16 @@
 #include "chainparams.h"
 #include "main.h"
 #include "txdb.h"
-#include "zrlc/deterministicmint.h"
+#include "zrea/deterministicmint.h"
 #include "key.h"
-#include "zrlc/accumulatorcheckpoints.h"
+#include "zrea/accumulatorcheckpoints.h"
 #include "libzerocoin/bignum.h"
 #include <boost/test/unit_test.hpp>
 #include <iostream>
-#include <zrlc/accumulators.h>
+#include <zrea/accumulators.h>
 #include "wallet/wallet.h"
-#include "zrlc/zrlcwallet.h"
-#include "zrlcchain.h"
+#include "zrea/zreawallet.h"
+#include "zreachain.h"
 #include "test_realcoin.h"
 
 using namespace libzerocoin;
@@ -475,7 +475,7 @@ BOOST_AUTO_TEST_CASE(deterministic_tests)
     CWalletDB walletdb(strWalletFile, "cr+");
 
     CWallet wallet(strWalletFile);
-    CzRLCWallet zWallet(wallet.strWalletFile);
+    CzREAWallet zWallet(wallet.strWalletFile);
     zWallet.SetMasterSeed(seedMaster);
     wallet.setZWallet(&zWallet);
 
@@ -487,7 +487,7 @@ BOOST_AUTO_TEST_CASE(deterministic_tests)
     for (int i = 0; i < nTests; i++) {
         PrivateCoin coin(Params().Zerocoin_Params(false), denom, false);
         CDeterministicMint dMint;
-        zWallet.GenerateDeterministicZRLC(denom, coin, dMint);
+        zWallet.GenerateDeterministicZREA(denom, coin, dMint);
         vCoins.emplace_back(coin);
     }
 

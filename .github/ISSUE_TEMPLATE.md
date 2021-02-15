@@ -1,7 +1,7 @@
 <!--- Remove this description and sections that do not apply -->
 
 This issue tracker is only for technical issues related to RealCoin Core.
-General RealCoin questions and/or support requests and are best directed to the [RealCoin Discord](https://discord.realcoin.org).
+General RealCoin questions and/or support requests and are best directed to the [RealCoin Discord](https://discord.gg/cxCeTNcRTm).
 
 ### Describe the issue
 

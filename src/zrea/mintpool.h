@@ -8,7 +8,7 @@
 #include <map>
 #include <list>
 
-#include "zrlc/zerocoin.h"
+#include "zrea/zerocoin.h"
 #include "libzerocoin/bignum.h"
 #include "uint256.h"
 

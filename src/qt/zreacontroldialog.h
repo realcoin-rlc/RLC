@@ -2,12 +2,12 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef ZRLCCONTROLDIALOG_H
-#define ZRLCCONTROLDIALOG_H
+#ifndef ZREACONTROLDIALOG_H
+#define ZREACONTROLDIALOG_H
 
 #include <QDialog>
 #include <QTreeWidgetItem>
-#include "zrlc/zerocoin.h"
+#include "zrea/zerocoin.h"
 #include "privacydialog.h"
 
 class CZerocoinMint;
@@ -65,4 +65,4 @@ private slots:
     void ButtonAllClicked();
 };
 
-#endif // ZRLCCONTROLDIALOG_H
+#endif // ZREACONTROLDIALOG_H

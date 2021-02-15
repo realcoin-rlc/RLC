@@ -28,7 +28,7 @@
  *
  * \section intro_sec Introduction
  *
- * This is the developer documentation of the reference client for an experimental new digital currency called RealCoin (http://www.realcoin.org),
+ * This is the developer documentation of the reference client for an experimental new digital currency called RealCoin (http://www.real-coin.in),
  * which enables instant payments to anyone, anywhere in the world. RealCoin uses peer-to-peer technology to operate
  * with no central authority: managing transactions and issuing money are carried out collectively by the network.
  *

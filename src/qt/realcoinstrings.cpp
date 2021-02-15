@@ -60,12 +60,12 @@ QT_TRANSLATE_NOOP("realcoin-core", ""
 QT_TRANSLATE_NOOP("realcoin-core", ""
 "Enable automatic Zerocoin minting from specific addresses (0-1, default: %u)"),
 QT_TRANSLATE_NOOP("realcoin-core", ""
-"Enable automatic wallet backups triggered after each zRLC minting (0-1, "
+"Enable automatic wallet backups triggered after each zREA minting (0-1, "
 "default: %u)"),
 QT_TRANSLATE_NOOP("realcoin-core", ""
-"Enable or disable staking functionality for RLC inputs (0-1, default: %u)"),
+"Enable or disable staking functionality for REA inputs (0-1, default: %u)"),
 QT_TRANSLATE_NOOP("realcoin-core", ""
-"Enable or disable staking functionality for zRLC inputs (0-1, default: %u)"),
+"Enable or disable staking functionality for zREA inputs (0-1, default: %u)"),
 QT_TRANSLATE_NOOP("realcoin-core", ""
 "Enable spork administration functionality with the appropriate private key."),
 QT_TRANSLATE_NOOP("realcoin-core", ""
@@ -102,10 +102,10 @@ QT_TRANSLATE_NOOP("realcoin-core", ""
 QT_TRANSLATE_NOOP("realcoin-core", ""
 "Failed to find coin set amongst held coins with less than maxNumber of Spends"),
 QT_TRANSLATE_NOOP("realcoin-core", ""
-"Fees (in RLC/Kb) smaller than this are considered zero fee for relaying "
+"Fees (in REA/Kb) smaller than this are considered zero fee for relaying "
 "(default: %s)"),
 QT_TRANSLATE_NOOP("realcoin-core", ""
-"Fees (in RLC/Kb) smaller than this are considered zero fee for transaction "
+"Fees (in REA/Kb) smaller than this are considered zero fee for transaction "
 "creation (default: %s)"),
 QT_TRANSLATE_NOOP("realcoin-core", ""
 "Flush database activity from memory pool to disk log every <n> megabytes "
@@ -178,7 +178,7 @@ QT_TRANSLATE_NOOP("realcoin-core", ""
 "Show N confirmations for a successfully locked transaction (0-9999, default: "
 "%u)"),
 QT_TRANSLATE_NOOP("realcoin-core", ""
-"Specify custom backup path to add a copy of any automatic zRLC backup. If "
+"Specify custom backup path to add a copy of any automatic zREA backup. If "
 "set as dir, every backup generates a timestamped file. If set as file, will "
 "rewrite to that file every backup. If backuppath is set as well, 4 backups "
 "will happen"),
@@ -212,10 +212,10 @@ QT_TRANSLATE_NOOP("realcoin-core", ""
 "Unable to locate enough Obfuscation denominated funds for this transaction."),
 QT_TRANSLATE_NOOP("realcoin-core", ""
 "Unable to locate enough Obfuscation non-denominated funds for this "
-"transaction that are not equal 10000 RLC."),
+"transaction that are not equal 10000 REA."),
 QT_TRANSLATE_NOOP("realcoin-core", ""
 "Unable to locate enough funds for this transaction that are not equal 10000 "
-"RLC."),
+"REA."),
 QT_TRANSLATE_NOOP("realcoin-core", ""
 "Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: "
 "%s)"),
@@ -297,7 +297,7 @@ QT_TRANSLATE_NOOP("realcoin-core", "Do not load the wallet and disable wallet RP
 QT_TRANSLATE_NOOP("realcoin-core", "Do you want to rebuild the block database now?"),
 QT_TRANSLATE_NOOP("realcoin-core", "Done loading"),
 QT_TRANSLATE_NOOP("realcoin-core", "Enable automatic Zerocoin minting (0-1, default: %u)"),
-QT_TRANSLATE_NOOP("realcoin-core", "Enable precomputation of zRLC spends and stakes (0-1, default %u)"),
+QT_TRANSLATE_NOOP("realcoin-core", "Enable precomputation of zREA spends and stakes (0-1, default %u)"),
 QT_TRANSLATE_NOOP("realcoin-core", "Enable publish hash block in <address>"),
 QT_TRANSLATE_NOOP("realcoin-core", "Enable publish hash transaction (locked via SwiftX) in <address>"),
 QT_TRANSLATE_NOOP("realcoin-core", "Enable publish hash transaction in <address>"),
@@ -333,7 +333,7 @@ QT_TRANSLATE_NOOP("realcoin-core", "Failed to read block"),
 QT_TRANSLATE_NOOP("realcoin-core", "Failed to select a zerocoin"),
 QT_TRANSLATE_NOOP("realcoin-core", "Failed to wipe zerocoinDB"),
 QT_TRANSLATE_NOOP("realcoin-core", "Failed to write coin serial number into wallet"),
-QT_TRANSLATE_NOOP("realcoin-core", "Fee (in RLC/kB) to add to transactions you send (default: %s)"),
+QT_TRANSLATE_NOOP("realcoin-core", "Fee (in REA/kB) to add to transactions you send (default: %s)"),
 QT_TRANSLATE_NOOP("realcoin-core", "Force safe mode (default: %u)"),
 QT_TRANSLATE_NOOP("realcoin-core", "Generate coins (default: %u)"),
 QT_TRANSLATE_NOOP("realcoin-core", "How many blocks to check at startup (default: %u, 0 = all)"),
@@ -398,11 +398,11 @@ QT_TRANSLATE_NOOP("realcoin-core", "RPC server options:"),
 QT_TRANSLATE_NOOP("realcoin-core", "Randomly drop 1 of every <n> network messages"),
 QT_TRANSLATE_NOOP("realcoin-core", "Randomly fuzz 1 of every <n> network messages"),
 QT_TRANSLATE_NOOP("realcoin-core", "Rebuild block chain index from current blk000??.dat files"),
-QT_TRANSLATE_NOOP("realcoin-core", "Recalculating RLC supply..."),
-QT_TRANSLATE_NOOP("realcoin-core", "Recalculating minted ZRLC..."),
-QT_TRANSLATE_NOOP("realcoin-core", "Recalculating spent ZRLC..."),
+QT_TRANSLATE_NOOP("realcoin-core", "Recalculating REA supply..."),
+QT_TRANSLATE_NOOP("realcoin-core", "Recalculating minted ZREA..."),
+QT_TRANSLATE_NOOP("realcoin-core", "Recalculating spent ZREA..."),
 QT_TRANSLATE_NOOP("realcoin-core", "Receive and display P2P network alerts (default: %u)"),
-QT_TRANSLATE_NOOP("realcoin-core", "Reindex the RLC and zRLC money supply statistics"),
+QT_TRANSLATE_NOOP("realcoin-core", "Reindex the REA and zREA money supply statistics"),
 QT_TRANSLATE_NOOP("realcoin-core", "Reindex the accumulator database"),
 QT_TRANSLATE_NOOP("realcoin-core", "Reindexing zerocoin database..."),
 QT_TRANSLATE_NOOP("realcoin-core", "Reindexing zerocoin failed"),
@@ -451,7 +451,7 @@ QT_TRANSLATE_NOOP("realcoin-core", "Synchronizing budgets..."),
 QT_TRANSLATE_NOOP("realcoin-core", "Synchronizing masternode winners..."),
 QT_TRANSLATE_NOOP("realcoin-core", "Synchronizing masternodes..."),
 QT_TRANSLATE_NOOP("realcoin-core", "Synchronizing sporks..."),
-QT_TRANSLATE_NOOP("realcoin-core", "Syncing zRLC wallet..."),
+QT_TRANSLATE_NOOP("realcoin-core", "Syncing zREA wallet..."),
 QT_TRANSLATE_NOOP("realcoin-core", "The coin spend has been used"),
 QT_TRANSLATE_NOOP("realcoin-core", "The transaction did not verify"),
 QT_TRANSLATE_NOOP("realcoin-core", "This help message"),
@@ -482,7 +482,7 @@ QT_TRANSLATE_NOOP("realcoin-core", "Use block spam filter (default: %u)"),
 QT_TRANSLATE_NOOP("realcoin-core", "Use the test network"),
 QT_TRANSLATE_NOOP("realcoin-core", "User Agent comment (%s) contains unsafe characters."),
 QT_TRANSLATE_NOOP("realcoin-core", "Username for JSON-RPC connections"),
-QT_TRANSLATE_NOOP("realcoin-core", "Value is below the smallest available denomination (= 1) of zRLC"),
+QT_TRANSLATE_NOOP("realcoin-core", "Value is below the smallest available denomination (= 1) of zREA"),
 QT_TRANSLATE_NOOP("realcoin-core", "Verifying blocks..."),
 QT_TRANSLATE_NOOP("realcoin-core", "Verifying wallet..."),
 QT_TRANSLATE_NOOP("realcoin-core", "Wallet %s resides outside data directory %s"),

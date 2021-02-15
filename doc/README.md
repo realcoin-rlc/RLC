@@ -3,7 +3,7 @@ RealCoin Core
 
 Setup
 ---------------------
-[RealCoin Core](http://realcoin.org/wallet) is the original RealCoin client and it builds the backbone of the network. However, it downloads and stores the entire history of RealCoin transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[RealCoin Core](http://real-coin.in/wallet) is the original RealCoin client and it builds the backbone of the network. However, it downloads and stores the entire history of RealCoin transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
@@ -26,10 +26,10 @@ Drag RealCoin-Qt to your applications folder, and then run RealCoin-Qt.
 
 ### Need Help?
 
-* See the documentation at the [RealCoin Wiki](https://github.com/RealCoin-Project/RealCoin/wiki)
+* See the documentation at the [RealCoin Wiki](https://github.com/realcoin-rea/REA/wiki)
 for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [RealCoin Forum](http://forum.realcoin.org/).
-* Join our Discord server [Discord Server](https://discord.realcoin.org)
+* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [RealCoin Forum](http://forum.real-coin.in/).
+* Join our Discord server [Discord Server](https://discord.gg/cxCeTNcRTm)
 
 Building
 ---------------------
@@ -56,8 +56,8 @@ The RealCoin repo's [root README](/README.md) contains relevant information on t
 - [Dnsseed Policy](dnsseed-policy.md)
 
 ### Resources
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [RealCoin](http://forum.realcoin.org/) forum.
-* Join the [RealCoin Discord](https://discord.realcoin.org).
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [RealCoin](http://forum.real-coin.in/) forum.
+* Join the [RealCoin Discord](https://discord.gg/cxCeTNcRTm).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

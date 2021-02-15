@@ -15,7 +15,7 @@ from test_framework.util import assert_equal, assert_greater_than
 
 from fake_stake.base_test import RealCoin_FakeStakeTest
 
-class zRLCValidCoinSpendTest(RealCoin_FakeStakeTest):
+class zREAValidCoinSpendTest(RealCoin_FakeStakeTest):
 
     def run_test(self):
         self.description = "Covers the 'valid publicCoinSpend spend' scenario."
@@ -31,7 +31,7 @@ class zRLCValidCoinSpendTest(RealCoin_FakeStakeTest):
         sleep(2)
 
         # 2) Mint zerocoins
-        self.log.info("Minting %d-denom zRLCs..." % DENOM_TO_USE)
+        self.log.info("Minting %d-denom zREAs..." % DENOM_TO_USE)
         self.node.mintzerocoin(DENOM_TO_USE)
         self.node.generate(1)
         sleep(2)
@@ -99,4 +99,4 @@ class zRLCValidCoinSpendTest(RealCoin_FakeStakeTest):
 
 
 if __name__ == '__main__':
-    zRLCValidCoinSpendTest().main()
+    zREAValidCoinSpendTest().main()

@@ -20,8 +20,8 @@ Summary:	Peer to Peer Cryptographic Currency
 
 Group:		Applications/System
 License:	MIT
-URL:		https://realcoin.org/
-Source0:	https://realcoin.org/bin/realcoin-core-%{version}/realcoin-%{version}.tar.gz
+URL:		https://real-coin.in/
+Source0:	https://real-coin.in/bin/realcoin-core-%{version}/realcoin-%{version}.tar.gz
 Source1:	http://download.oracle.com/berkeley-db/db-%{bdbv}.NC.tar.gz
 
 Source10:	https://raw.githubusercontent.com/realcoin-project/realcoin/v%{version}/contrib/debian/examples/realcoin.conf

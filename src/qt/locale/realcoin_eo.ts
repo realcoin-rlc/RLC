@@ -176,15 +176,15 @@
         <translation>Konfirmi monerĉifrado</translation>
     </message>
     <message>
-        <source>RealCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RLCs from being stolen by malware infecting your computer.</source>
-        <translation>RealCoin fermos nun por fini ĉifran procezon. Memoru ke ĉifri vian monujon ne povas plene protekti viajn RLCs de esti ŝtelita per malware infektanta vian komputilon.</translation>
+        <source>RealCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your REAs from being stolen by malware infecting your computer.</source>
+        <translation>RealCoin fermos nun por fini ĉifran procezon. Memoru ke ĉifri vian monujon ne povas plene protekti viajn REAs de esti ŝtelita per malware infektanta vian komputilon.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Ĉu vi certas ke vi volas ĉifri vian monujon?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR RLC&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REA&lt;/b&gt;!</source>
         <translation>Averto: se vi ĉifras vian monujo kaj perdi vian pasfrazon, vi &lt;b&gt;PERDOS VIAN TUTAN MONON&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -433,8 +433,8 @@
         <translation>&amp;Foliumi transakcio historio</translation>
     </message>
     <message>
-        <source>Privacy Actions for zRLC</source>
-        <translation>Privataj agoj por zRLC</translation>
+        <source>Privacy Actions for zREA</source>
+        <translation>Privataj agoj por zREA</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1098,8 +1098,8 @@ Muktisendi: %1</translation>
         <translation>Ĉi tiun etikedo ruĝiĝas se iu ajna ricevanto ricevas totalo pli malgranda ol %1.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 urlc per input.</source>
-        <translation>Povas varii +/- %1 urlc per enigo.</translation>
+        <source>Can vary +/- %1 uREA per input.</source>
+        <translation>Povas varii +/- %1 uREA per enigo.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1514,8 +1514,8 @@ Muktisendi: %1</translation>
         <translation>Adreso / Kvanto:</translation>
     </message>
     <message>
-        <source>Add destinations to send RLC to</source>
-        <translation>Aldonu destinoj por sendi RLC al</translation>
+        <source>Add destinations to send REA to</source>
+        <translation>Aldonu destinoj por sendi REA al</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1705,8 +1705,8 @@ https://www.transifex.com/realcoin-project/realcoin-project-translations</transl
         <translation>Via aktuala elspezebla saldo</translation>
     </message>
     <message>
-        <source>RLC Balance</source>
-        <translation>RLC kvanto</translation>
+        <source>REA Balance</source>
+        <translation>REA kvanto</translation>
     </message>
     <message>
         <source>Immature:</source>
@@ -1717,8 +1717,8 @@ https://www.transifex.com/realcoin-project/realcoin-project-translations</transl
         <translation>Via aktuala RealCoin totalo, nekonformita kaj nematurita transakcioj inkluzivita</translation>
     </message>
     <message>
-        <source>zRLC Balance</source>
-        <translation>zRLC kvanto</translation>
+        <source>zREA Balance</source>
+        <translation>zREA kvanto</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -1767,7 +1767,7 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
-        <translation>Pago peto dosiero ne povas estas legi! Ĉi tio rlcas esti kauzita por nevalida pago peto dosiero.</translation>
+        <translation>Pago peto dosiero ne povas estas legi! Ĉi tio REAas esti kauzita por nevalida pago peto dosiero.</translation>
     </message>
     <message>
         <source>Payment request rejected</source>
@@ -1788,20 +1788,20 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>0</translation>
     </message>
     <message>
-        <source>zRLC</source>
-        <translation>zRLC</translation>
+        <source>zREA</source>
+        <translation>zREA</translation>
     </message>
     <message>
         <source>Reset</source>
         <translation>Restarigi</translation>
     </message>
     <message>
-        <source>zRLC Control</source>
-        <translation>zRLC kontrolu</translation>
+        <source>zREA Control</source>
+        <translation>zREA kontrolu</translation>
     </message>
     <message>
-        <source>zRLC Selected:</source>
-        <translation>Elektita zRLC</translation>
+        <source>zREA Selected:</source>
+        <translation>Elektita zREA</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -1812,12 +1812,12 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>Elspezi zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zRLC for spending</source>
-        <translation>Havebla (matura kaj elspezebla) zRLC por elspezi</translation>
+        <source>Available (mature and spendable) zREA for spending</source>
+        <translation>Havebla (matura kaj elspezebla) zREA por elspezi</translation>
     </message>
     <message>
-        <source>0 zRLC</source>
-        <translation>0 zRLC</translation>
+        <source>0 zREA</source>
+        <translation>0 zREA</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -2194,8 +2194,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>Se estas aktiva sed ŝanĝo-adreso estas malpleniĝa au nevalida, ŝanĝo sendos al nova generita adreson.</translation>
     </message>
     <message>
-        <source>0 RLC</source>
-        <translation>0 RLC</translation>
+        <source>0 REA</source>
+        <translation>0 REA</translation>
     </message>
     <message>
         <source>Open Coin Control...</source>
@@ -2270,7 +2270,7 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
     </message>
     <message>
         <source>The RealCoin address to send the payment to</source>
-        <translation>RLCC adreso por sendi la pago al</translation>
+        <translation>REAC adreso por sendi la pago al</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2552,8 +2552,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>0</translation>
     </message>
     <message>
-        <source>zRLC</source>
-        <translation>zRLC</translation>
+        <source>zREA</source>
+        <translation>zREA</translation>
     </message>
     </context>
 <context>

@@ -54,7 +54,7 @@ static const int MAX_URI_LENGTH = 255;
 #define SPINNER_FRAMES 35
 
 #define QAPP_ORG_NAME "RealCoin"
-#define QAPP_ORG_DOMAIN "realcoin.org"
+#define QAPP_ORG_DOMAIN "real-coin.in"
 #define QAPP_APP_NAME_DEFAULT "RealCoin-Qt"
 #define QAPP_APP_NAME_TESTNET "RealCoin-Qt-testnet"
 

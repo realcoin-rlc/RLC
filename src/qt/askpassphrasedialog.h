@@ -38,9 +38,9 @@ public:
         Encrypt,        /** Encrypt unencrypted wallet */
         ToggleLock,     /** Toggle wallet lock state */
         ChangePass,     /** Change passphrase */
-        Send_RLC,       /** Send RLC */
-        Send_zRLC,      /** Send zRLC */
-        Mint_zRLC,      /** Mint zRLC */
+        Send_REA,       /** Send REA */
+        Send_zREA,      /** Send zREA */
+        Mint_zREA,      /** Mint zREA */
         BIP_38,         /** BIP38 menu */
         Multi_Sig,      /** Multi-Signature dialog */
         Sign_Message,   /** Sign/verify message dialog */

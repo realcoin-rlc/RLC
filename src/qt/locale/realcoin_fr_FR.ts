@@ -176,16 +176,16 @@
         <translation>Confirmer le cryptage du portefeuille</translation>
     </message>
     <message>
-        <source>RealCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RLCs from being stolen by malware infecting your computer.</source>
-        <translation>RealCoin va maintenant se fermer pour finir le processus de cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos RLCs d'un vol par un malware ayant infecté votre ordinateur. </translation>
+        <source>RealCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your REAs from being stolen by malware infecting your computer.</source>
+        <translation>RealCoin va maintenant se fermer pour finir le processus de cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos REAs d'un vol par un malware ayant infecté votre ordinateur. </translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Êtes-vous sûr de vouloir crypter votre portefeuille?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR RLC&lt;/b&gt;!</source>
-        <translation>Attention : si vous cryptez votre portefeuille et perdez votre phrase secrète, vous &lt;b&gt;PERDREZ TOUS VOS RLC&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REA&lt;/b&gt;!</source>
+        <translation>Attention : si vous cryptez votre portefeuille et perdez votre phrase secrète, vous &lt;b&gt;PERDREZ TOUS VOS REA&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -433,8 +433,8 @@
         <translation>Afficher l'historique de transaction</translation>
     </message>
     <message>
-        <source>Privacy Actions for zRLC</source>
-        <translation>Actions confidentielles pour zRLC</translation>
+        <source>Privacy Actions for zREA</source>
+        <translation>Actions confidentielles pour zREA</translation>
     </message>
     <message>
         <source>&amp;Governance</source>
@@ -1122,8 +1122,8 @@ Adresse : %4
         <translation>Ce label devient rouge si l'un des destinataires reçoit un montant inférieur à %1.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 urlc per input.</source>
-        <translation>Peut varier de +/- %1 urlc par entrée.</translation>
+        <source>Can vary +/- %1 urea per input.</source>
+        <translation>Peut varier de +/- %1 urea par entrée.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1746,8 +1746,8 @@ S'il vous plaît soyez patient après avoir cliqué sur l'importation.</translat
         <translation>Adresse / Montant:</translation>
     </message>
     <message>
-        <source>Add destinations to send RLC to</source>
-        <translation>Ajouter des destinations pour envoyer RLC</translation>
+        <source>Add destinations to send REA to</source>
+        <translation>Ajouter des destinations pour envoyer REA</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1946,36 +1946,36 @@ https://www.transifex.com/realcoin-project/realcoin-project-translations</transl
         <translation>Répertorier les port utilisant UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of RLC units to zRLC</source>
-        <translation>Activé l'auto-monnayage de RLC unités en zRLC</translation>
+        <source>Enable automatic minting of REA units to zREA</source>
+        <translation>Activé l'auto-monnayage de REA unités en zREA</translation>
     </message>
     <message>
-        <source>Enable zRLC Automint</source>
-        <translation>Activer l'Auto-monnayage zRLC </translation>
+        <source>Enable zREA Automint</source>
+        <translation>Activer l'Auto-monnayage zREA </translation>
     </message>
     <message>
-        <source>Enable automatic zRLC minting from specific addresses</source>
-        <translation>Activer la frappe zRLC automatique à partir d'adresses spécifiques</translation>
+        <source>Enable automatic zREA minting from specific addresses</source>
+        <translation>Activer la frappe zREA automatique à partir d'adresses spécifiques</translation>
     </message>
     <message>
         <source>Enable Automint Addresses</source>
         <translation>Activer les Adresses Automint</translation>
     </message>
     <message>
-        <source>Percentage of incoming RLC which get automatically converted to zRLC via Zerocoin Protocol (min: 10%)</source>
-        <translation>Pourcentage des RLC entrants qui seront automatiquement convertis en zRLC via le protocole Zerocoin (min. 10%)</translation>
+        <source>Percentage of incoming REA which get automatically converted to zREA via Zerocoin Protocol (min: 10%)</source>
+        <translation>Pourcentage des REA entrants qui seront automatiquement convertis en zREA via le protocole Zerocoin (min. 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zRLC</source>
-        <translation>Pourcentage de zRLC auto-monnayé</translation>
+        <source>Percentage of autominted zREA</source>
+        <translation>Pourcentage de zREA auto-monnayé</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough RLC for this denomination is available</source>
-        <translation>Met en attente la conversion automatique Zerocoin jusqu'à ce qu'il y ai suffisament de RLC disponibles pour la dénomination demandée</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough REA for this denomination is available</source>
+        <translation>Met en attente la conversion automatique Zerocoin jusqu'à ce qu'il y ai suffisament de REA disponibles pour la dénomination demandée</translation>
     </message>
     <message>
-        <source>Preferred Automint zRLC Denomination</source>
-        <translation>Dénomination préférée pour l'auto-monnayage zRLC</translation>
+        <source>Preferred Automint zREA Denomination</source>
+        <translation>Dénomination préférée pour l'auto-monnayage zREA</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
@@ -2141,8 +2141,8 @@ https://www.transifex.com/realcoin-project/realcoin-project-translations</transl
         <translation>Solde total, incluant les pièces indisponibles.</translation>
     </message>
     <message>
-        <source>RLC Balance</source>
-        <translation>Solde de RLC</translation>
+        <source>REA Balance</source>
+        <translation>Solde de REA</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2169,14 +2169,14 @@ https://www.transifex.com/realcoin-project/realcoin-project-translations</transl
         <translation>Votre solde RealCoin actuel, incluant les transactions non confirmées et immatures</translation>
     </message>
     <message>
-        <source>zRLC Balance</source>
-        <translation>Solde de zRLC</translation>
+        <source>zREA Balance</source>
+        <translation>Solde de zREA</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zRLC are spendable.</source>
+These zREA are spendable.</source>
         <translation>Maturité: plus de 20 confirmations et plus de 1 monnaie de la même dénomination après sa frappe.
-Ces zRLC sont dépensables.</translation>
+Ces zREA sont dépensables.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2229,8 +2229,8 @@ Immature: confirmé, mais moins de 1 monnaie de la même dénomination après sa
         <translation>Dépensable:</translation>
     </message>
     <message>
-        <source>Locked RLC or Masternode collaterals. These are excluded from zRLC minting.</source>
-        <translation>RLC Verrouillé ou Masternode collatéraux. Ceux-ci sont exclus du monnayage zRLC.</translation>
+        <source>Locked REA or Masternode collaterals. These are excluded from zREA minting.</source>
+        <translation>REA Verrouillé ou Masternode collatéraux. Ceux-ci sont exclus du monnayage zREA.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2241,8 +2241,8 @@ Immature: confirmé, mais moins de 1 monnaie de la même dénomination après sa
         <translation>Non confirmé:</translation>
     </message>
     <message>
-        <source>Your current zRLC balance, unconfirmed and immature zRLC included.</source>
-        <translation>Votre solde courant zRLC, incluant les zRLC non confirmés et immatures.</translation>
+        <source>Your current zREA balance, unconfirmed and immature zREA included.</source>
+        <translation>Votre solde courant zREA, incluant les zREA non confirmés et immatures.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2253,10 +2253,10 @@ Immature: confirmé, mais moins de 1 monnaie de la même dénomination après sa
         <translation>désynchronisé</translation>
     </message>
     <message>
-        <source>Current percentage of zRLC.
+        <source>Current percentage of zREA.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Le pourcentage actuel de zRLC.
+        <translation>Le pourcentage actuel de zREA.
 Si l'Auto-monnayage est activé, ce pourcentage sera réglé au niveau du pourcentage d'Auto-monnayage configuré (par défaut = 10%).
 </translation>
     </message>
@@ -2400,8 +2400,8 @@ Pour activer Auto-monnayage, changez 'enablezeromint = 0' en 'enablezeromint = 1
         <translation>0</translation>
     </message>
     <message>
-        <source>zRLC</source>
-        <translation>zRLC</translation>
+        <source>zREA</source>
+        <translation>zREA</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2428,12 +2428,12 @@ Pour activer Auto-monnayage, changez 'enablezeromint = 0' en 'enablezeromint = 1
         <translation>CONFIDENTIALITÉ</translation>
     </message>
     <message>
-        <source>zRLC Control</source>
-        <translation>Choisir les zRLC</translation>
+        <source>zREA Control</source>
+        <translation>Choisir les zREA</translation>
     </message>
     <message>
-        <source>zRLC Selected:</source>
-        <translation>zRLC sélectionnés:</translation>
+        <source>zREA Selected:</source>
+        <translation>zREA sélectionnés:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2448,24 +2448,24 @@ Pour activer Auto-monnayage, changez 'enablezeromint = 0' en 'enablezeromint = 1
         <translation>Dépenser les Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zRLC for spending</source>
-        <translation>zRLC disponibles (matures et utilisables) pour les dépenses</translation>
+        <source>Available (mature and spendable) zREA for spending</source>
+        <translation>zREA disponibles (matures et utilisables) pour les dépenses</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Solde disponible:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zRLC for spending
+        <source>Available (mature and spendable) zREA for spending
 
-zRLC are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>zRLC disponibles (matures et utilisables) pour les dépenses
+zREA are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>zREA disponibles (matures et utilisables) pour les dépenses
 
-Les zRLC sont matures lorsqu'ils ont plus de 20 confirmations ET plus de 2 monnaies de même dénomination après leur frappe</translation>
+Les zREA sont matures lorsqu'ils ont plus de 20 confirmations ET plus de 2 monnaies de même dénomination après leur frappe</translation>
     </message>
     <message>
-        <source>0 zRLC</source>
-        <translation>0 zRLC</translation>
+        <source>0 zREA</source>
+        <translation>0 zREA</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -2524,8 +2524,8 @@ Les zRLC sont matures lorsqu'ils ont plus de 20 confirmations ET plus de 2 monna
         <translation>Statistiques Zerocoin:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zRLC</source>
-        <translation>Solde total incluant les zRLC non confirmés et immatures</translation>
+        <source>Total Balance including unconfirmed and immature zREA</source>
+        <translation>Solde total incluant les zREA non confirmés et immatures</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2546,24 +2546,24 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Immature: confirmé, mais moins de 1 monnaie de la même dénomination après sa frappe</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zRLC minting.
+        <source>Show the current status of automatic zREA minting.
 
 To change the status (restart required):
 - enable: add 'enablezeromint=1' to realcoin.conf
 - disable: add 'enablezeromint=0' to realcoin.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zRLC
+- menu Settings-&gt;Options-&gt;Percentage of autominted zREA
 
 </source>
-        <translation>Afficher l'état actuel de l'Auto-monnayage zRLC.
+        <translation>Afficher l'état actuel de l'Auto-monnayage zREA.
 
 Pour changer le statut (redémarrage requis):
 - enable: ajoute 'enablezeromint = 1' au fichier realcoin.conf
 - disable: ajoute 'enablezeromint = 0' au fichier realcoin.conf
 
 Pour changer le pourcentage (pas de redémarrage requis):
-- menu Paramètres-&gt; Options-&gt; Pourcentage de zRLC auto-monnayé
+- menu Paramètres-&gt; Options-&gt; Pourcentage de zREA auto-monnayé
 
 </translation>
     </message>
@@ -2612,8 +2612,8 @@ Pour changer le pourcentage (pas de redémarrage requis):
         <translation>0 x</translation>
     </message>
     <message>
-        <source>Show zRLC denominations list</source>
-        <translation>Montrer la liste des Dénominations pour zRLC</translation>
+        <source>Show zREA denominations list</source>
+        <translation>Montrer la liste des Dénominations pour zREA</translation>
     </message>
     <message>
         <source>Show Denominations</source>
@@ -2750,12 +2750,12 @@ Please be patient...</source>
 S'il vous plaît soyez patient ...</translation>
     </message>
     <message>
-        <source>zRLC Spend #: </source>
-        <translation>Dépense zRLC #:</translation>
+        <source>zREA Spend #: </source>
+        <translation>Dépense zREA #:</translation>
     </message>
     <message>
-        <source>zRLC Mint</source>
-        <translation>Monnayage zRLC</translation>
+        <source>zREA Mint</source>
+        <translation>Monnayage zREA</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2770,12 +2770,12 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Pourcentage cible configuré: &lt;b&gt;</translation>
     </message>
     <message>
-        <source>zRLC is currently disabled due to maintenance.</source>
-        <translation>zRLC est actuellement désactivé pour cause de maintenance.</translation>
+        <source>zREA is currently disabled due to maintenance.</source>
+        <translation>zREA est actuellement désactivé pour cause de maintenance.</translation>
     </message>
     <message>
-        <source>zRLC is currently undergoing maintenance.</source>
-        <translation>zRLC est actuellement en cours de maintenance.</translation>
+        <source>zREA is currently undergoing maintenance.</source>
+        <translation>zREA est actuellement en cours de maintenance.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -3318,8 +3318,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Chemin du répertoire de sauvegarde personnalisé:</translation>
     </message>
     <message>
-        <source>Custom zRLC Backup Path:</source>
-        <translation>Chemin du répertoire de sauvegarde zRLC personnalisé:</translation>
+        <source>Custom zREA Backup Path:</source>
+        <translation>Chemin du répertoire de sauvegarde zREA personnalisé:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3786,12 +3786,12 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Taille UTXO:</translation>
     </message>
     <message>
-        <source>0 RLC</source>
-        <translation>0 RLC</translation>
+        <source>0 REA</source>
+        <translation>0 REA</translation>
     </message>
     <message>
-        <source>SwiftX technology allows for near instant transactions - A flat fee of 0.01 RLC applies</source>
-        <translation>La technologie SwiftX permet des transactions quasi instantanées - Des frais minimum de 0.01 RLC s'appliquent</translation>
+        <source>SwiftX technology allows for near instant transactions - A flat fee of 0.01 REA applies</source>
+        <translation>La technologie SwiftX permet des transactions quasi instantanées - Des frais minimum de 0.01 REA s'appliquent</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3846,12 +3846,12 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Pièces automatiquement sélectionnées</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uRLCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uRLCs in fee,&lt;br /&gt;while "at least" pays 1000 uRLCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Si le tarif personnalisé est fixé à 1000 uRLC et que la transaction ne représente que 250 octets, "par kilo-octet", alors le système ne paiera que 250 uRLC en frais,&lt;br /&gt;tandis que le choix "au moins" paiera 1000 uRLC forfaitairement. Pour les transactions supérieures à un kilo-octet, les deux choix paieront les frais par kilo-octets.</translation>
+        <source>If the custom fee is set to 1000 uREAs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uREAs in fee,&lt;br /&gt;while "at least" pays 1000 uREAs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si le tarif personnalisé est fixé à 1000 uREA et que la transaction ne représente que 250 octets, "par kilo-octet", alors le système ne paiera que 250 uREA en frais,&lt;br /&gt;tandis que le choix "au moins" paiera 1000 uREA forfaitairement. Pour les transactions supérieures à un kilo-octet, les deux choix paieront les frais par kilo-octets.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uRLCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uRLCs in fee,&lt;br /&gt;while "total at least" pays 1000 uRLCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Si le tarif personnalisé est fixé à 1000 uRLC et que la transaction ne représente que 250 octets, "par kilo-octet", alors le système ne paiera que 250 uRLC en frais,tandis que le choix "total au moins" paiera 1000 uRLC. Pour les transactions supérieures à un kilo-octet, les deux choix paieront les frais par kilo-octets.</translation>
+        <source>If the custom fee is set to 1000 uREAs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uREAs in fee,&lt;br /&gt;while "total at least" pays 1000 uREAs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si le tarif personnalisé est fixé à 1000 uREA et que la transaction ne représente que 250 octets, "par kilo-octet", alors le système ne paiera que 250 uREA en frais,tandis que le choix "total au moins" paiera 1000 uREA. Pour les transactions supérieures à un kilo-octet, les deux choix paieront les frais par kilo-octets.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for RealCoin transactions than the network can process.</source>
@@ -3902,8 +3902,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Ajouter un destinataire</translation>
     </message>
     <message>
-        <source>Anonymized RLC</source>
-        <translation>RLC anonymisé</translation>
+        <source>Anonymized REA</source>
+        <translation>REA anonymisé</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -4550,12 +4550,12 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Reçu via Obfuscation</translation>
     </message>
     <message>
-        <source>RLC Stake</source>
-        <translation>RLC Stake</translation>
+        <source>REA Stake</source>
+        <translation>REA Stake</translation>
     </message>
     <message>
-        <source>zRLC Stake</source>
-        <translation>zRLC Stake</translation>
+        <source>zREA Stake</source>
+        <translation>zREA Stake</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
@@ -4574,32 +4574,32 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Le cryptage créé des unités</translation>
     </message>
     <message>
-        <source>Converted RLC to zRLC</source>
-        <translation>RLC converti en zRLC</translation>
+        <source>Converted REA to zREA</source>
+        <translation>REA converti en zREA</translation>
     </message>
     <message>
-        <source>Spent zRLC</source>
-        <translation>zRLC dépensés</translation>
+        <source>Spent zREA</source>
+        <translation>zREA dépensés</translation>
     </message>
     <message>
-        <source>Received RLC from zRLC</source>
-        <translation>RLC reçu depuis zRLC</translation>
+        <source>Received REA from zREA</source>
+        <translation>REA reçu depuis zREA</translation>
     </message>
     <message>
-        <source>Minted Change as zRLC from zRLC Spend</source>
-        <translation>Monnaie rendue à partir d'une dépense zRLC frappée comme zRLC </translation>
+        <source>Minted Change as zREA from zREA Spend</source>
+        <translation>Monnaie rendue à partir d'une dépense zREA frappée comme zREA </translation>
     </message>
     <message>
-        <source>Converted zRLC to RLC</source>
-        <translation>zRLC converti en RLC</translation>
+        <source>Converted zREA to REA</source>
+        <translation>zREA converti en REA</translation>
     </message>
     <message>
-        <source>Anonymous (zRLC Transaction)</source>
-        <translation>Anonyme (transaction zRLC)</translation>
+        <source>Anonymous (zREA Transaction)</source>
+        <translation>Anonyme (transaction zREA)</translation>
     </message>
     <message>
-        <source>Anonymous (zRLC Stake)</source>
-        <translation>Anonyme (zRLC Stake)</translation>
+        <source>Anonymous (zREA Stake)</source>
+        <translation>Anonyme (zREA Stake)</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -4714,7 +4714,7 @@ S'il vous plaît soyez patient ...</translation>
     </message>
     <message>
         <source>Zerocoin Mint</source>
-        <translation>RLC convertit en zRLC</translation>
+        <translation>REA convertit en zREA</translation>
     </message>
     <message>
         <source>Zerocoin Spend</source>
@@ -4813,12 +4813,12 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Exportation réussie</translation>
     </message>
     <message>
-        <source>Received RLC from zRLC</source>
-        <translation>RLC reçu depuis zRLC</translation>
+        <source>Received REA from zREA</source>
+        <translation>REA reçu depuis zREA</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zRLC</source>
-        <translation>Dépense Zerocoin, monnaie rendue en zRLC</translation>
+        <source>Zerocoin Spend, Change in zREA</source>
+        <translation>Dépense Zerocoin, monnaie rendue en zREA</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
@@ -4854,8 +4854,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Envoyer des pièces</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 RLC.</source>
-        <translation>SwiftX ne supporte pas l'envoi de montants aussi élevés. Les transactions sont actuellement lmitées à %1 RLC.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 REA.</source>
+        <translation>SwiftX ne supporte pas l'envoi de montants aussi élevés. Les transactions sont actuellement lmitées à %1 REA.</translation>
     </message>
 </context>
 <context>
@@ -4888,8 +4888,8 @@ S'il vous plaît soyez patient ...</translation>
 <context>
     <name>ZPivControlDialog</name>
     <message>
-        <source>Select zRLC to Spend</source>
-        <translation>Choisir les zRLC à dépenser</translation>
+        <source>Select zREA to Spend</source>
+        <translation>Choisir les zREA à dépenser</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4900,8 +4900,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zRLC</source>
-        <translation>zRLC</translation>
+        <source>zREA</source>
+        <translation>zREA</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4971,16 +4971,16 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Activer la frappe automatique de monnaie à partir d’adresses spécifiques (0-1, par défaut: %u)</translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zRLC minting (0-1, default: %u)</source>
-        <translation>Activer les sauvegardes automatiques de portefeuille déclenchées après chaque frappe zRLC (0-1, par défaut: %u)</translation>
+        <source>Enable automatic wallet backups triggered after each zREA minting (0-1, default: %u)</source>
+        <translation>Activer les sauvegardes automatiques de portefeuille déclenchées après chaque frappe zREA (0-1, par défaut: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for RLC inputs (0-1, default: %u)</source>
-        <translation>Active ou désactive la fonctionnalité de staking pour les entrées RLC (0-1, par défaut: %u)</translation>
+        <source>Enable or disable staking functionality for REA inputs (0-1, default: %u)</source>
+        <translation>Active ou désactive la fonctionnalité de staking pour les entrées REA (0-1, par défaut: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zRLC inputs (0-1, default: %u)</source>
-        <translation>Active ou désactive la fonctionnalité de staking pour les entrées zRLC (0-1, par défaut: %u)</translation>
+        <source>Enable or disable staking functionality for zREA inputs (0-1, default: %u)</source>
+        <translation>Active ou désactive la fonctionnalité de staking pour les entrées zREA (0-1, par défaut: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -5015,12 +5015,12 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Exécuter la commande lorsque le meilleur bloc change  (%s dans cmd est remplacé par le hash du bloc)</translation>
     </message>
     <message>
-        <source>Fees (in RLC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Les frais (en RLC / Kb) inférieurs à ceux-ci sont considérés comme des frais nuls pour le relais (par défaut: %s)</translation>
+        <source>Fees (in REA/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Les frais (en REA / Kb) inférieurs à ceux-ci sont considérés comme des frais nuls pour le relais (par défaut: %s)</translation>
     </message>
     <message>
-        <source>Fees (in RLC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Les frais (en RLC / Kb) inférieurs à cette valeur sont considérés comme des frais nuls pour la création de transaction (par défaut: %s)</translation>
+        <source>Fees (in REA/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Les frais (en REA / Kb) inférieurs à cette valeur sont considérés comme des frais nuls pour la création de transaction (par défaut: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -5143,12 +5143,12 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Incapable de localiser suffisamment de fonds non-dénommés pour l'Obfuscation de cette transaction.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 RLC.</source>
-        <translation>Incapable de localiser suffisamment de fonds non-dénommés pour l'Obfuscation de cette transaction qui ne sont pas égaux à 10000 RLC.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 REA.</source>
+        <translation>Incapable de localiser suffisamment de fonds non-dénommés pour l'Obfuscation de cette transaction qui ne sont pas égaux à 10000 REA.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 RLC.</source>
-        <translation>Impossible de grouper assez de fonds pour cette transaction qui n'est pas égale à 10000 RLC.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 REA.</source>
+        <translation>Impossible de grouper assez de fonds pour cette transaction qui n'est pas égale à 10000 REA.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5351,8 +5351,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Activer la frappe automatique Zerocoin (0-1, par défaut: %u)</translation>
     </message>
     <message>
-        <source>Enable precomputation of zRLC spends and stakes (0-1, default %u)</source>
-        <translation>Autoriser le pré-calcul des ZRLC dépensés et stakés (0-1, défaut %u)</translation>
+        <source>Enable precomputation of zREA spends and stakes (0-1, default %u)</source>
+        <translation>Autoriser le pré-calcul des ZREA dépensés et stakés (0-1, défaut %u)</translation>
     </message>
     <message>
         <source>Enable publish hash transaction (locked via SwiftX) in &lt;address&gt;</source>
@@ -5443,8 +5443,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Impossible de lire le bloc</translation>
     </message>
     <message>
-        <source>Fee (in RLC/kB) to add to transactions you send (default: %s)</source>
-        <translation>Frais (en RLC/kB) à ajouter aux transactions envoyées (défaut: %s)</translation>
+        <source>Fee (in REA/kB) to add to transactions you send (default: %s)</source>
+        <translation>Frais (en REA/kB) à ajouter aux transactions envoyées (défaut: %s)</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
@@ -5547,20 +5547,20 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Pourcentage de Zerocoin Auto-monnayé (1-100, par défaut: %u)</translation>
     </message>
     <message>
-        <source>Recalculating RLC supply...</source>
-        <translation>Recalcule de RLC émis</translation>
+        <source>Recalculating REA supply...</source>
+        <translation>Recalcule de REA émis</translation>
     </message>
     <message>
-        <source>Recalculating minted ZRLC...</source>
-        <translation>Recalcule des ZRLC générés</translation>
+        <source>Recalculating minted ZREA...</source>
+        <translation>Recalcule des ZREA générés</translation>
     </message>
     <message>
-        <source>Recalculating spent ZRLC...</source>
-        <translation>Recalcule des ZRLC dépensés</translation>
+        <source>Recalculating spent ZREA...</source>
+        <translation>Recalcule des ZREA dépensés</translation>
     </message>
     <message>
-        <source>Reindex the RLC and zRLC money supply statistics</source>
-        <translation>Recalculer les statistiques sur l'approvisionnement en RLC et zRLC</translation>
+        <source>Reindex the REA and zREA money supply statistics</source>
+        <translation>Recalculer les statistiques sur l'approvisionnement en REA et zREA</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -5640,12 +5640,12 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Dénomination préférée pour les Zerocoin Auto-monnayés (1/5/10/50/100/500/1000/5000), 0 pour aucune préférence. par défaut: %u)</translation>
     </message>
     <message>
-        <source>Specify custom backup path to add a copy of any automatic zRLC backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Spécifier un chemin de sauvegarde personnalisé pour y ajouter les sauvegardes automatiques zRLC. S'il est paramétré comme un dossier, chaque sauvegarde génère un fichier horodaté. S'il est paramétré comme fichier, chaque sauvegarde écrasera la précédente. Si le chemin de la sauvegarde est défini, il y aura 4 versions de sauvegardes</translation>
+        <source>Specify custom backup path to add a copy of any automatic zREA backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <translation>Spécifier un chemin de sauvegarde personnalisé pour y ajouter les sauvegardes automatiques zREA. S'il est paramétré comme un dossier, chaque sauvegarde génère un fichier horodaté. S'il est paramétré comme fichier, chaque sauvegarde écrasera la précédente. Si le chemin de la sauvegarde est défini, il y aura 4 versions de sauvegardes</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
-        <translation>Spécifier un chemin de sauvegarde personnalisé pour y ajouter les sauvegardes automatiques zRLC. S'il est paramétré comme un dossier, chaque sauvegarde génère un fichier horodaté. S'il est paramétré comme fichier, chaque sauvegarde écrasera la précédente.</translation>
+        <translation>Spécifier un chemin de sauvegarde personnalisé pour y ajouter les sauvegardes automatiques zREA. S'il est paramétré comme un dossier, chaque sauvegarde génère un fichier horodaté. S'il est paramétré comme fichier, chaque sauvegarde écrasera la précédente.</translation>
     </message>
     <message>
         <source>SwiftX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
@@ -6060,8 +6060,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Synchronisation des sporks ...</translation>
     </message>
     <message>
-        <source>Syncing zRLC wallet...</source>
-        <translation>Synchronisation du portefeuille zRLC ...</translation>
+        <source>Syncing zREA wallet...</source>
+        <translation>Synchronisation du portefeuille zREA ...</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>
@@ -6172,8 +6172,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Nom d'utilisateur pour les connections JSON-RPC</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zRLC</source>
-        <translation>La valeur est inférieure à la plus petite dénomination disponible (= 1) de zRLC</translation>
+        <source>Value is below the smallest available denomination (= 1) of zREA</source>
+        <translation>La valeur est inférieure à la plus petite dénomination disponible (= 1) de zREA</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

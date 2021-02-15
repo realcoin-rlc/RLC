@@ -11,10 +11,10 @@
 #include "wallet/db.h"
 #include "key.h"
 #include "keystore.h"
-#include "zrlc/zerocoin.h"
+#include "zrea/zerocoin.h"
 #include "libzerocoin/Accumulator.h"
 #include "libzerocoin/Denominations.h"
-#include "zrlc/zrlctracker.h"
+#include "zrea/zreatracker.h"
 
 #include <list>
 #include <stdint.h>
@@ -179,14 +179,14 @@ public:
     bool ReadZerocoinSpendSerialEntry(const CBigNum& bnSerial);
     bool WriteCurrentSeedHash(const uint256& hashSeed);
     bool ReadCurrentSeedHash(uint256& hashSeed);
-    bool WriteZRLCSeed(const uint256& hashSeed, const vector<unsigned char>& seed);
-    bool ReadZRLCSeed(const uint256& hashSeed, vector<unsigned char>& seed);
-    bool ReadZRLCSeed_deprecated(uint256& seed);
-    bool EraseZRLCSeed();
-    bool EraseZRLCSeed_deprecated();
+    bool WriteZREASeed(const uint256& hashSeed, const vector<unsigned char>& seed);
+    bool ReadZREASeed(const uint256& hashSeed, vector<unsigned char>& seed);
+    bool ReadZREASeed_deprecated(uint256& seed);
+    bool EraseZREASeed();
+    bool EraseZREASeed_deprecated();
 
-    bool WriteZRLCCount(const uint32_t& nCount);
-    bool ReadZRLCCount(uint32_t& nCount);
+    bool WriteZREACount(const uint32_t& nCount);
+    bool ReadZREACount(uint32_t& nCount);
     std::map<uint256, std::vector<pair<uint256, uint32_t> > > MapMintPool();
     bool WriteMintPoolPair(const uint256& hashMasterSeed, const uint256& hashPubcoin, const uint32_t& nCount);
 

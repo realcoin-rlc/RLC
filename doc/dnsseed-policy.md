@@ -44,7 +44,7 @@ related to the DNS seed operation.
 If these expectations cannot be satisfied the operator should
 discontinue providing services and contact the active RealCoin
 Core development team as well as posting on the
-[RealCoin Forum](https://forum.realcoin.org).
+[RealCoin Forum](https://forum.real-coin.in).
 
 Behavior outside of these expectations may be reasonable in some
 situations but should be discussed in public in advance.

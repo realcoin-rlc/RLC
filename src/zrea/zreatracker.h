@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef RealCoin_ZRLCTRACKER_H
-#define RealCoin_ZRLCTRACKER_H
+#ifndef RealCoin_ZREATRACKER_H
+#define RealCoin_ZREATRACKER_H
 
 #include "zerocoin.h"
 #include "witness.h"
@@ -11,9 +11,9 @@
 #include <list>
 
 class CDeterministicMint;
-class CzRLCWallet;
+class CzREAWallet;
 
-class CzRLCTracker
+class CzREATracker
 {
 private:
     bool fInitialized;
@@ -23,9 +23,9 @@ private:
     std::map<uint256, std::unique_ptr<CoinWitnessData> > mapStakeCache; //serialhash, witness value, height
     bool UpdateStatusInternal(const std::set<uint256>& setMempool, CMintMeta& mint);
 public:
-    CzRLCTracker(std::string strWalletFile);
-    ~CzRLCTracker();
-    void Add(const CDeterministicMint& dMint, bool isNew = false, bool isArchived = false, CzRLCWallet* zRLCWallet = NULL);
+    CzREATracker(std::string strWalletFile);
+    ~CzREATracker();
+    void Add(const CDeterministicMint& dMint, bool isNew = false, bool isArchived = false, CzREAWallet* zREAWallet = NULL);
     void Add(const CZerocoinMint& mint, bool isNew = false, bool isArchived = false);
     bool Archive(CMintMeta& meta);
     bool HasPubcoin(const CBigNum& bnValue) const;
@@ -55,4 +55,4 @@ public:
     void Clear();
 };
 
-#endif //RealCoin_ZRLCTRACKER_H
+#endif //RealCoin_ZREATRACKER_H

@@ -14,7 +14,7 @@ Files: src/json/*
 Copyright: 2007-2009, John W. Wilkinson
 License: Expat
 
-Files: src/strlcpy.h
+Files: src/streapy.h
 Copyright: 1998, Todd C. Miller <Todd.Miller@courtesan.com>
 License: ISC
 
@@ -65,7 +65,7 @@ Copyright: http://www.everaldo.com
 License: LGPL
 Comment: Icon Pack: Crystal SVG
 
-Files: src/qt/res/icons/bitcoin.png, src/qt/res/icons/toolbar.png
+Files: src/qt/res/icons/realcoin.png, src/qt/res/icons/toolbar.png
 Copyright: Bitboy (optimized for 16x16 by Wladimir van der Laan)
 License: PUB-DOM
 Comment: Site: https://bitcointalk.org/?topic=1756.0

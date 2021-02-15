@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "zrlcchain.h"
-#include "zrlc/zrlcmodule.h"
+#include "zreachain.h"
+#include "zrea/zreamodule.h"
 #include "invalid.h"
 #include "main.h"
 #include "txdb.h"
@@ -293,7 +293,7 @@ std::string ReindexZerocoinDB()
                                 libzerocoin::ZerocoinParams* params = Params().Zerocoin_Params(false);
                                 PublicCoinSpend publicSpend(params);
                                 CValidationState state;
-                                if (!ZRLCModule::ParseZerocoinPublicSpend(in, tx, state, publicSpend)){
+                                if (!ZREAModule::ParseZerocoinPublicSpend(in, tx, state, publicSpend)){
                                     return _("Failed to parse public spend");
                                 }
                                 vSpendInfo.push_back(make_pair(publicSpend, txid));

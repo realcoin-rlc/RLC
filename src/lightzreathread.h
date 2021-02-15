@@ -3,12 +3,12 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 //
 
-#ifndef RealCoin_LIGHTZRLCTHREAD_H
-#define RealCoin_LIGHTZRLCTHREAD_H
+#ifndef RealCoin_LIGHTZREATHREAD_H
+#define RealCoin_LIGHTZREATHREAD_H
 
 #include <atomic>
 #include "genwit.h"
-#include "zrlc/accumulators.h"
+#include "zrea/accumulators.h"
 #include "concurrentqueue.h"
 #include "chainparams.h"
 #include <boost/function.hpp>
@@ -49,22 +49,22 @@ public:
         return true;
     }
 
-    void StartLightZrlcThread(boost::thread_group& threadGroup) {
+    void StartLightZreaThread(boost::thread_group& threadGroup) {
         LogPrintf("%s thread start\n", "realcoin-light-thread");
-        threadIns = boost::thread(boost::bind(&CLightWorker::ThreadLightZRLCSimplified, this));
+        threadIns = boost::thread(boost::bind(&CLightWorker::ThreadLightZREASimplified, this));
     }
 
-    void StopLightZrlcThread() {
+    void StopLightZreaThread() {
         threadIns.interrupt();
         LogPrintf("%s thread interrupted\n", "realcoin-light-thread");
     }
 
 private:
 
-    void ThreadLightZRLCSimplified();
+    void ThreadLightZREASimplified();
 
     void rejectWork(CGenWit& wit, int blockHeight, uint32_t errorNumber);
 
 };
 
-#endif //RealCoin_LIGHTZRLCTHREAD_H
+#endif //RealCoin_LIGHTZREATHREAD_H

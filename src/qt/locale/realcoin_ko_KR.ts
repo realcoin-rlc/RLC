@@ -176,16 +176,16 @@
         <translation>지갑 암호화 확인</translation>
     </message>
     <message>
-        <source>RealCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RLCs from being stolen by malware infecting your computer.</source>
-        <translation>RealCoin는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 RLCs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
+        <source>RealCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your REAs from being stolen by malware infecting your computer.</source>
+        <translation>RealCoin는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 REAs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>지갑을 암호화 하시겠습니까?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR RLC&lt;/b&gt;!</source>
-        <translation>경고: 지갑 암호화 후 암호를 분실하게 되면 &lt;b&gt;모든 RLC를 잃게 됩니다&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REA&lt;/b&gt;!</source>
+        <translation>경고: 지갑 암호화 후 암호를 분실하게 되면 &lt;b&gt;모든 REA를 잃게 됩니다&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -433,8 +433,8 @@
         <translation>겨래내역 보기</translation>
     </message>
     <message>
-        <source>Privacy Actions for zRLC</source>
-        <translation>zRLC 생성 및 관리</translation>
+        <source>Privacy Actions for zREA</source>
+        <translation>zREA 생성 및 관리</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1110,8 +1110,8 @@ Address: %4
         <translation>받는 사람이 %1 보다 작은 금액을 받으면 라벨이 빨간색으로 변경됩니다.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 urlc per input.</source>
-        <translation>Can vary +/- %1 urlc per input.</translation>
+        <source>Can vary +/- %1 uREA per input.</source>
+        <translation>Can vary +/- %1 uREA per input.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1632,8 +1632,8 @@ Please be patient after clicking import.</source>
         <translation>주소 / 금액:</translation>
     </message>
     <message>
-        <source>Add destinations to send RLC to</source>
-        <translation>RLC를 보낼 목적지 추가</translation>
+        <source>Add destinations to send REA to</source>
+        <translation>REA를 보낼 목적지 추가</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1832,28 +1832,28 @@ https://www.transifex.com/realcoin-project/realcoin-project-translations</transl
         <translation>&amp;UPnp를 사용하여 포트 매핑</translation>
     </message>
     <message>
-        <source>Enable automatic minting of RLC units to zRLC</source>
-        <translation>보상받은 RLC를 zRLC로 자동변환 활성화</translation>
+        <source>Enable automatic minting of REA units to zREA</source>
+        <translation>보상받은 REA를 zREA로 자동변환 활성화</translation>
     </message>
     <message>
-        <source>Enable zRLC Automint</source>
-        <translation>zRLC 자동생성 활성화</translation>
+        <source>Enable zREA Automint</source>
+        <translation>zREA 자동생성 활성화</translation>
     </message>
     <message>
-        <source>Percentage of incoming RLC which get automatically converted to zRLC via Zerocoin Protocol (min: 10%)</source>
-        <translation>RLC수신시 자동변환 zRLC 비율 (최소값:10%)</translation>
+        <source>Percentage of incoming REA which get automatically converted to zREA via Zerocoin Protocol (min: 10%)</source>
+        <translation>REA수신시 자동변환 zREA 비율 (최소값:10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zRLC</source>
-        <translation>자동 변환되는 zRLC 비율</translation>
+        <source>Percentage of autominted zREA</source>
+        <translation>자동 변환되는 zREA 비율</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough RLC for this denomination is available</source>
-        <translation>이 디노미네이션의 RLC가 충분해질 때까지 Zerocoin으로 자동전환은 보류됩니다.</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough REA for this denomination is available</source>
+        <translation>이 디노미네이션의 REA가 충분해질 때까지 Zerocoin으로 자동전환은 보류됩니다.</translation>
     </message>
     <message>
-        <source>Preferred Automint zRLC Denomination</source>
-        <translation>선호하는 자동생성 zRLC 디노미네이션 </translation>
+        <source>Preferred Automint zREA Denomination</source>
+        <translation>선호하는 자동생성 zREA 디노미네이션 </translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
@@ -2011,8 +2011,8 @@ https://www.transifex.com/realcoin-project/realcoin-project-translations</transl
         <translation>전체 잔액, (현재 전송이 불가능한 코인 포함)</translation>
     </message>
     <message>
-        <source>RLC Balance</source>
-        <translation>RLC 잔액</translation>
+        <source>REA Balance</source>
+        <translation>REA 잔액</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2039,14 +2039,14 @@ https://www.transifex.com/realcoin-project/realcoin-project-translations</transl
         <translation>현재 RealCoin 잔액, 미확정, 생성중인 코인 포함</translation>
     </message>
     <message>
-        <source>zRLC Balance</source>
-        <translation>zRLC 잔액</translation>
+        <source>zREA Balance</source>
+        <translation>zREA 잔액</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zRLC are spendable.</source>
+These zREA are spendable.</source>
         <translation>성숙한 : 그것이 발행 된 후 같은 명칭의 20 개 이상의 확인 및 1 개 민트.
-이 zRLC는 쓸만합니다.</translation>
+이 zREA는 쓸만합니다.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2099,8 +2099,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>출금 가능 액수:</translation>
     </message>
     <message>
-        <source>Locked RLC or Masternode collaterals. These are excluded from zRLC minting.</source>
-        <translation>잠금 RLC 또는 Masternode collaterals. 이들은 zRLC minting에서 제외됩니다.</translation>
+        <source>Locked REA or Masternode collaterals. These are excluded from zREA minting.</source>
+        <translation>잠금 REA 또는 Masternode collaterals. 이들은 zREA minting에서 제외됩니다.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2111,8 +2111,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>미승인:</translation>
     </message>
     <message>
-        <source>Your current zRLC balance, unconfirmed and immature zRLC included.</source>
-        <translation>zRLC 잔액, 미확정, 생성중인 zRLC 포함.</translation>
+        <source>Your current zREA balance, unconfirmed and immature zREA included.</source>
+        <translation>zREA 잔액, 미확정, 생성중인 zREA 포함.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2123,10 +2123,10 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>동기화되지 않음</translation>
     </message>
     <message>
-        <source>Current percentage of zRLC.
+        <source>Current percentage of zREA.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>현재 zRLC의 백분율 .
+        <translation>현재 zREA의 백분율 .
 자동 저장 기능이 활성화 된 경우이 비율은 구성된 자동 저장 비율 (기본값 = 10 %)을 기준으로 정해집니다.</translation>
     </message>
     <message>
@@ -2141,7 +2141,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
         <source>AutoMint is currently disabled.
 To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in realcoin.conf</source>
         <translation>자동 저장 기능이 현재 사용 중지되었습니다 .
-자동 변환을 사용하려면 rlcotx.conf에서 'enablezeromint = 0'에서 'enablezeromint = 1'로 변경하십시오.</translation>
+자동 변환을 사용하려면 REAotx.conf에서 'enablezeromint = 0'에서 'enablezeromint = 1'로 변경하십시오.</translation>
     </message>
 </context>
 <context>
@@ -2269,8 +2269,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in realcoin.c
         <translation>0</translation>
     </message>
     <message>
-        <source>zRLC</source>
-        <translation>zRLC</translation>
+        <source>zREA</source>
+        <translation>zREA</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2297,12 +2297,12 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in realcoin.c
         <translation>프라이버시</translation>
     </message>
     <message>
-        <source>zRLC Control</source>
-        <translation>zRLC 컨트롤</translation>
+        <source>zREA Control</source>
+        <translation>zREA 컨트롤</translation>
     </message>
     <message>
-        <source>zRLC Selected:</source>
-        <translation>선택된 zRLC :</translation>
+        <source>zREA Selected:</source>
+        <translation>선택된 zREA :</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2317,24 +2317,24 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in realcoin.c
         <translation>제로코인 보내기</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zRLC for spending</source>
-        <translation>전송 가능한 zRLC</translation>
+        <source>Available (mature and spendable) zREA for spending</source>
+        <translation>전송 가능한 zREA</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>가능한 잔액:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zRLC for spending
+        <source>Available (mature and spendable) zREA for spending
 
-zRLC are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>지출에 사용할 수있는 성숙한 소비재 zRLC
+zREA are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>지출에 사용할 수있는 성숙한 소비재 zREA
 
-zRLC는 성명서가 20 개 이상 있고 명칭이 동일하지 않은 2 개 이상의 민트가 작성되었을 때 성숙합니다.</translation>
+zREA는 성명서가 20 개 이상 있고 명칭이 동일하지 않은 2 개 이상의 민트가 작성되었을 때 성숙합니다.</translation>
     </message>
     <message>
-        <source>0 zRLC</source>
-        <translation>0 zRLC</translation>
+        <source>0 zREA</source>
+        <translation>0 zREA</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -2342,7 +2342,7 @@ zRLC는 성명서가 20 개 이상 있고 명칭이 동일하지 않은 2 개 �
     </message>
     <message>
         <source>The RealCoin address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>RLC를 전송할 RealCoin 주소입니다. 비어있을 때 자신에게 지불할 주소를 생성합니다.</translation>
+        <translation>REA를 전송할 RealCoin 주소입니다. 비어있을 때 자신에게 지불할 주소를 생성합니다.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2393,7 +2393,7 @@ zRLC는 성명서가 20 개 이상 있고 명칭이 동일하지 않은 2 개 �
         <translation>제로코인 상태 :</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zRLC</source>
+        <source>Total Balance including unconfirmed and immature zREA</source>
         <translation>승인중이거나, 생성중인 제로코인도 포함된 전체 잔액입니다.</translation>
     </message>
     <message>
@@ -2415,24 +2415,24 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 미성숙 : 확인되었지만 발행 된 후 같은 종파 1 개 미만</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zRLC minting.
+        <source>Show the current status of automatic zREA minting.
 
 To change the status (restart required):
 - enable: add 'enablezeromint=1' to realcoin.conf
 - disable: add 'enablezeromint=0' to realcoin.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zRLC
+- menu Settings-&gt;Options-&gt;Percentage of autominted zREA
 
 </source>
-        <translation>현재 zRLC 자동 생성 상태를 보여줍니다.
+        <translation>현재 zREA 자동 생성 상태를 보여줍니다.
 
 자동생성 상태를 변경하시려면 (지갑 재시작 필요함):
 - 활성화: 'enablezeromint=1' 를 realcoin.conf 파일에 추가
 - 비활성화: 'enablezeromint=0' 를 realcoin.conf 파일에 추가
 
 자동 생성 비율 변경하시려면 (지갑 재시작 필요없음):
-- 메뉴 설정-&gt;옵션-&gt;zRLC 자동생성 비율
+- 메뉴 설정-&gt;옵션-&gt;zREA 자동생성 비율
 
 </translation>
     </message>
@@ -2607,12 +2607,12 @@ Please be patient...</source>
 기다려주세요...</translation>
     </message>
     <message>
-        <source>zRLC Spend #: </source>
-        <translation>zRLC 전송 # :</translation>
+        <source>zREA Spend #: </source>
+        <translation>zREA 전송 # :</translation>
     </message>
     <message>
-        <source>zRLC Mint</source>
-        <translation>zRLC 생성</translation>
+        <source>zREA Mint</source>
+        <translation>zREA 생성</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2627,12 +2627,12 @@ Please be patient...</source>
         <translation> 구성된 목표 비율 : &lt;b&gt;</translation>
     </message>
     <message>
-        <source>zRLC is currently disabled due to maintenance.</source>
-        <translation>zRLC는 현재 점검중이라 사용하실수 없습니다.</translation>
+        <source>zREA is currently disabled due to maintenance.</source>
+        <translation>zREA는 현재 점검중이라 사용하실수 없습니다.</translation>
     </message>
     <message>
-        <source>zRLC is currently undergoing maintenance.</source>
-        <translation>zRLC는 현재 점검중입니다.</translation>
+        <source>zREA is currently undergoing maintenance.</source>
+        <translation>zREA는 현재 점검중입니다.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -3077,8 +3077,8 @@ Please be patient...</source>
         <translation>맞춤 백업 경로 :</translation>
     </message>
     <message>
-        <source>Custom zRLC Backup Path:</source>
-        <translation>맞춤 zRLC 백업 경로 :</translation>
+        <source>Custom zREA Backup Path:</source>
+        <translation>맞춤 zREA 백업 경로 :</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3526,8 +3526,8 @@ Please be patient...</source>
         <translation>UTXO 크기:</translation>
     </message>
     <message>
-        <source>0 RLC</source>
-        <translation>0 RLC</translation>
+        <source>0 REA</source>
+        <translation>0 REA</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3582,12 +3582,12 @@ Please be patient...</source>
         <translation>자동으로 선택됩니다.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uRLCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uRLCs in fee,&lt;br /&gt;while "at least" pays 1000 uRLCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uRLCs로 설정되고,&lt;br /&gt;1000 uRLCs 안에는 최소 "킬로바이트당" 250 uRLCs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
+        <source>If the custom fee is set to 1000 uREAs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uREAs in fee,&lt;br /&gt;while "at least" pays 1000 uREAs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uREAs로 설정되고,&lt;br /&gt;1000 uREAs 안에는 최소 "킬로바이트당" 250 uREAs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uRLCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uRLCs in fee,&lt;br /&gt;while "total at least" pays 1000 uRLCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uRLCs로 설정되고,&lt;br /&gt;1000 uRLCs 안에는 전체에서 최소 "킬로바이트당" 250 uRLCs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
+        <source>If the custom fee is set to 1000 uREAs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uREAs in fee,&lt;br /&gt;while "total at least" pays 1000 uREAs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uREAs로 설정되고,&lt;br /&gt;1000 uREAs 안에는 전체에서 최소 "킬로바이트당" 250 uREAs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for RealCoin transactions than the network can process.</source>
@@ -3638,8 +3638,8 @@ Please be patient...</source>
         <translation>&amp;받는 사람 추가</translation>
     </message>
     <message>
-        <source>Anonymized RLC</source>
-        <translation>익명화된 RLC</translation>
+        <source>Anonymized REA</source>
+        <translation>익명화된 REA</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -4283,12 +4283,12 @@ Please be patient...</source>
         <translation>난독화를 통해 수신 됨</translation>
     </message>
     <message>
-        <source>RLC Stake</source>
-        <translation>RLC stake</translation>
+        <source>REA Stake</source>
+        <translation>REA stake</translation>
     </message>
     <message>
-        <source>zRLC Stake</source>
-        <translation>zRLC stake</translation>
+        <source>zREA Stake</source>
+        <translation>zREA stake</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
@@ -4307,32 +4307,32 @@ Please be patient...</source>
         <translation>난독화 표시 만들기</translation>
     </message>
     <message>
-        <source>Converted RLC to zRLC</source>
-        <translation>RLC를 zRLC로 변환</translation>
+        <source>Converted REA to zREA</source>
+        <translation>REA를 zREA로 변환</translation>
     </message>
     <message>
-        <source>Spent zRLC</source>
-        <translation>zRLC 사용</translation>
+        <source>Spent zREA</source>
+        <translation>zREA 사용</translation>
     </message>
     <message>
-        <source>Received RLC from zRLC</source>
-        <translation>zRLC를 RLC로 받음</translation>
+        <source>Received REA from zREA</source>
+        <translation>zREA를 REA로 받음</translation>
     </message>
     <message>
-        <source>Minted Change as zRLC from zRLC Spend</source>
-        <translation>zRLC 전송후 남은 zRLC로 잔돈 생성</translation>
+        <source>Minted Change as zREA from zREA Spend</source>
+        <translation>zREA 전송후 남은 zREA로 잔돈 생성</translation>
     </message>
     <message>
-        <source>Converted zRLC to RLC</source>
-        <translation>zRLC를 RLC로 변환</translation>
+        <source>Converted zREA to REA</source>
+        <translation>zREA를 REA로 변환</translation>
     </message>
     <message>
-        <source>Anonymous (zRLC Transaction)</source>
-        <translation>Anonymous (zRLC 거래)</translation>
+        <source>Anonymous (zREA Transaction)</source>
+        <translation>Anonymous (zREA 거래)</translation>
     </message>
     <message>
-        <source>Anonymous (zRLC Stake)</source>
-        <translation>Anonymous (zRLC 스테이킹)</translation>
+        <source>Anonymous (zREA Stake)</source>
+        <translation>Anonymous (zREA 스테이킹)</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -4542,12 +4542,12 @@ Please be patient...</source>
         <translation>내보내기 성공</translation>
     </message>
     <message>
-        <source>Received RLC from zRLC</source>
-        <translation>zRLC를 RLC로 받음</translation>
+        <source>Received REA from zREA</source>
+        <translation>zREA를 REA로 받음</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zRLC</source>
-        <translation>제로코인 전송, 잔돈은 zRLC</translation>
+        <source>Zerocoin Spend, Change in zREA</source>
+        <translation>제로코인 전송, 잔돈은 zREA</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
@@ -4583,8 +4583,8 @@ Please be patient...</source>
         <translation>코인 전송 </translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 RLC.</source>
-        <translation>SwiftTX는 아직 높은 값을 전송하는 것을 지원하지 않습니다. 트랜잭션은 현재 %1 RLC로 제한됩니다.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 REA.</source>
+        <translation>SwiftTX는 아직 높은 값을 전송하는 것을 지원하지 않습니다. 트랜잭션은 현재 %1 REA로 제한됩니다.</translation>
     </message>
 </context>
 <context>
@@ -4617,8 +4617,8 @@ Please be patient...</source>
 <context>
     <name>ZPivControlDialog</name>
     <message>
-        <source>Select zRLC to Spend</source>
-        <translation>사용할 zRLC 선택</translation>
+        <source>Select zREA to Spend</source>
+        <translation>사용할 zREA 선택</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4629,8 +4629,8 @@ Please be patient...</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zRLC</source>
-        <translation>zRLC</translation>
+        <source>zREA</source>
+        <translation>zREA</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4692,16 +4692,16 @@ Please be patient...</source>
         <translation>MIT 소프트웨어 라이센스에 따라 배포, 첨부 파일 COPYING 또는 &lt;http://www.opensource.org/licenses/mit-license.php&gt; 를 참조하십시오.</translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zRLC minting (0-1, default: %u)</source>
-        <translation>Enable automatic wallet backups triggered after each zRLC minting (0-1, default: %u)</translation>
+        <source>Enable automatic wallet backups triggered after each zREA minting (0-1, default: %u)</source>
+        <translation>Enable automatic wallet backups triggered after each zREA minting (0-1, default: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for RLC inputs (0-1, default: %u)</source>
-        <translation>Enable or disable staking functionality for RLC inputs (0-1, default: %u)</translation>
+        <source>Enable or disable staking functionality for REA inputs (0-1, default: %u)</source>
+        <translation>Enable or disable staking functionality for REA inputs (0-1, default: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zRLC inputs (0-1, default: %u)</source>
-        <translation>Enable or disable staking functionality for zRLC inputs (0-1, default: %u)</translation>
+        <source>Enable or disable staking functionality for zREA inputs (0-1, default: %u)</source>
+        <translation>Enable or disable staking functionality for zREA inputs (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -4736,12 +4736,12 @@ Please be patient...</source>
         <translation>최고 블록이 변경될 경우 명령을 실행하십시오 (명령 내 %s 는 블록 해시로 대체 되었습니다)</translation>
     </message>
     <message>
-        <source>Fees (in RLC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>이것보다 작은 수수료 (RLC/Kb)는 중계 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
+        <source>Fees (in REA/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>이것보다 작은 수수료 (REA/Kb)는 중계 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
     </message>
     <message>
-        <source>Fees (in RLC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>이것보다 작은 수수료 (RLC/Kb)는 트랜잭션 생성 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
+        <source>Fees (in REA/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>이것보다 작은 수수료 (REA/Kb)는 트랜잭션 생성 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4844,12 +4844,12 @@ Please be patient...</source>
         <translation>이 트랜잭션를 위해 난독화 표기된 충분한 금액을 찾을 수 없습니다.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 RLC.</source>
-        <translation>이 트랜잭션를 위해 난독화 표기가 안된 충분한 금액을 찾을 수 없습니다. 10000 RLC과 일치하지 않음.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 REA.</source>
+        <translation>이 트랜잭션를 위해 난독화 표기가 안된 충분한 금액을 찾을 수 없습니다. 10000 REA과 일치하지 않음.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 RLC.</source>
-        <translation>트랜잭션에 대한 충분한 금액을 찾을 수 없습니다. 10000 RLC와 같지 않음</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 REA.</source>
+        <translation>트랜잭션에 대한 충분한 금액을 찾을 수 없습니다. 10000 REA와 같지 않음</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5132,8 +5132,8 @@ Please be patient...</source>
         <translation>블록을 받아오는데 실패했습니다.</translation>
     </message>
     <message>
-        <source>Fee (in RLC/kB) to add to transactions you send (default: %s)</source>
-        <translation>당신이 보내는 트랜잭션에 추가 할 수수료 (RLC/kB) (기본값: %s)</translation>
+        <source>Fee (in REA/kB) to add to transactions you send (default: %s)</source>
+        <translation>당신이 보내는 트랜잭션에 추가 할 수수료 (REA/kB) (기본값: %s)</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
@@ -5233,11 +5233,11 @@ Please be patient...</source>
     </message>
     <message>
         <source>Percentage of automatically minted Zerocoin  (1-100, default: %u)</source>
-        <translation>자동생성 zRLC 비율  (1-100, default: %u)</translation>
+        <translation>자동생성 zREA 비율  (1-100, default: %u)</translation>
     </message>
     <message>
-        <source>Reindex the RLC and zRLC money supply statistics</source>
-        <translation>RLC 및 zRLC 공급량 다시 색인</translation>
+        <source>Reindex the REA and zREA money supply statistics</source>
+        <translation>REA 및 zREA 공급량 다시 색인</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -5312,8 +5312,8 @@ Please be patient...</source>
         <translation>자동생성 제로코인 선호 디노미네이션 (1/5/10/50/100/500/1000/5000) 0사용안됨, 기본값 : %u)</translation>
     </message>
     <message>
-        <source>Specify custom backup path to add a copy of any automatic zRLC backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Specify custom backup path to add a copy of any automatic zRLC backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</translation>
+        <source>Specify custom backup path to add a copy of any automatic zREA backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <translation>Specify custom backup path to add a copy of any automatic zREA backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
@@ -5724,8 +5724,8 @@ Please be patient...</source>
         <translation>sporks와 동기화 중입니다...</translation>
     </message>
     <message>
-        <source>Syncing zRLC wallet...</source>
-        <translation>zRLC 지갑 동기화중...</translation>
+        <source>Syncing zREA wallet...</source>
+        <translation>zREA 지갑 동기화중...</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>
@@ -5832,8 +5832,8 @@ Please be patient...</source>
         <translation>JSON-RPC 연결 사용자 이름</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zRLC</source>
-        <translation>Value is below the smallest available denomination (= 1) of zRLC</translation>
+        <source>Value is below the smallest available denomination (= 1) of zREA</source>
+        <translation>Value is below the smallest available denomination (= 1) of zREA</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -5877,7 +5877,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>You don't have enough Zerocoins in your wallet</source>
-        <translation>지갑에 zRLC 가 부족합니다.</translation>
+        <translation>지갑에 zREA 가 부족합니다.</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to change -txindex</source>

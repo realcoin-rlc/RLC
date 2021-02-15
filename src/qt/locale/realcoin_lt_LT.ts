@@ -176,16 +176,16 @@
         <translation>Patvirtinkite piniginės užšifravimą.</translation>
     </message>
     <message>
-        <source>RealCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RLCs from being stolen by malware infecting your computer.</source>
-        <translation>Dabar RealCoin išsijungs, kad būtų užbaigtas šifravimo procesas. Atminkite, kad jūsų piniginės užšifravimas negali visiškai apsaugoti jūsų RLC nuo kenkėjiškų programų, užkrėsto jūsų kompiuterio.</translation>
+        <source>RealCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your REAs from being stolen by malware infecting your computer.</source>
+        <translation>Dabar RealCoin išsijungs, kad būtų užbaigtas šifravimo procesas. Atminkite, kad jūsų piniginės užšifravimas negali visiškai apsaugoti jūsų REA nuo kenkėjiškų programų, užkrėsto jūsų kompiuterio.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Ar tikrai norite užšifruoti savo piniginę?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR RLC&lt;/b&gt;!</source>
-        <translation>Įspėjimas: jei užšifruosite savo piniginę ir prarasite slaptafrazę, jūs &lt;b&gt;PRARASITE VISUS SAVO RLC&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REA&lt;/b&gt;!</source>
+        <translation>Įspėjimas: jei užšifruosite savo piniginę ir prarasite slaptafrazę, jūs &lt;b&gt;PRARASITE VISUS SAVO REA&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -433,8 +433,8 @@
         <translation>Naršyti pavedimų istoriją</translation>
     </message>
     <message>
-        <source>Privacy Actions for zRLC</source>
-        <translation>zRLC Saugumo Veiksmai </translation>
+        <source>Privacy Actions for zREA</source>
+        <translation>zREA Saugumo Veiksmai </translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1098,8 +1098,8 @@ MultiSend: %1</translation>
         <translation>Ši etiketė taps raudona, jei gavėjas gaus sumą mažesnę už %1</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 urlc per input.</source>
-        <translation>Gali skirtis +/- %1 urlc kiekvienoje įvestyje.</translation>
+        <source>Can vary +/- %1 urea per input.</source>
+        <translation>Gali skirtis +/- %1 urea kiekvienoje įvestyje.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1604,8 +1604,8 @@ MultiSend nebus aktyvuotas, nebent paspausite "Įjungti"</translation>
         <translation>Adresas / Suma:</translation>
     </message>
     <message>
-        <source>Add destinations to send RLC to</source>
-        <translation>Pridėkite vietas, kurioms norite siųsti RLC</translation>
+        <source>Add destinations to send REA to</source>
+        <translation>Pridėkite vietas, kurioms norite siųsti REA</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1776,24 +1776,24 @@ https://www.transifex.com/realcoin-project/realcoin-project-translations</transl
         <translation>Įrašyti prievadą naudojant &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of RLC units to zRLC</source>
-        <translation>Įgalinti automatinį konvertavimą iš RLC į zRLC</translation>
+        <source>Enable automatic minting of REA units to zREA</source>
+        <translation>Įgalinti automatinį konvertavimą iš REA į zREA</translation>
     </message>
     <message>
-        <source>Enable zRLC Automint</source>
-        <translation>Įgalinti zRLC Automatinį nukaldinima</translation>
+        <source>Enable zREA Automint</source>
+        <translation>Įgalinti zREA Automatinį nukaldinima</translation>
     </message>
     <message>
-        <source>Percentage of incoming RLC which get automatically converted to zRLC via Zerocoin Protocol (min: 10%)</source>
-        <translation>Procentas gauto RLC, kuris automatiškai bus konvertuotas į zRLC naudojant Zerocoin Protokolą (min: 10%)</translation>
+        <source>Percentage of incoming REA which get automatically converted to zREA via Zerocoin Protocol (min: 10%)</source>
+        <translation>Procentas gauto REA, kuris automatiškai bus konvertuotas į zREA naudojant Zerocoin Protokolą (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zRLC</source>
-        <translation>Automatiškai sukurtų zRLC procentas</translation>
+        <source>Percentage of autominted zREA</source>
+        <translation>Automatiškai sukurtų zREA procentas</translation>
     </message>
     <message>
-        <source>Preferred Automint zRLC Denomination</source>
-        <translation>Pageidautinas zRLC Automatinio Nukaldinimo Nominalas</translation>
+        <source>Preferred Automint zREA Denomination</source>
+        <translation>Pageidautinas zREA Automatinio Nukaldinimo Nominalas</translation>
     </message>
     <message>
         <source>Connect to the RealCoin network through a SOCKS5 proxy.</source>
@@ -1915,8 +1915,8 @@ https://www.transifex.com/realcoin-project/realcoin-project-translations</transl
         <translation>Bendras balansas, įskaitant visas nepasiekiamas monetas.</translation>
     </message>
     <message>
-        <source>RLC Balance</source>
-        <translation>RLC Balansas</translation>
+        <source>REA Balance</source>
+        <translation>REA Balansas</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -1943,14 +1943,14 @@ https://www.transifex.com/realcoin-project/realcoin-project-translations</transl
         <translation>Jūsų dabartinis RealCoin balansas, įskaitant nepatvirtintus ir nesubrendusius sandorius</translation>
     </message>
     <message>
-        <source>zRLC Balance</source>
-        <translation>zRLC Balansas</translation>
+        <source>zREA Balance</source>
+        <translation>zREA Balansas</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zRLC are spendable.</source>
+These zREA are spendable.</source>
         <translation>Subrendę: daugiau nei 20 patvirtinimų ir daugiau nei 1 konvertacija to pačio nominalo, kai jis jau buvo konvertuotas.
-Šiuos zRLC galima išleisti.</translation>
+Šiuos zREA galima išleisti.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2003,8 +2003,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Prienamas išleidimui:</translation>
     </message>
     <message>
-        <source>Locked RLC or Masternode collaterals. These are excluded from zRLC minting.</source>
-        <translation>Užrakinti RLC arba Masternode užstatai. Jie yra neįtraukti į zRLC kalimą.</translation>
+        <source>Locked REA or Masternode collaterals. These are excluded from zREA minting.</source>
+        <translation>Užrakinti REA arba Masternode užstatai. Jie yra neįtraukti į zREA kalimą.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2108,8 +2108,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>0</translation>
     </message>
     <message>
-        <source>zRLC</source>
-        <translation>zRLC</translation>
+        <source>zREA</source>
+        <translation>zREA</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -2128,12 +2128,12 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>PRIVATUMAS</translation>
     </message>
     <message>
-        <source>zRLC Control</source>
+        <source>zREA Control</source>
         <translation>zPiv Kontrolė</translation>
     </message>
     <message>
-        <source>zRLC Selected:</source>
-        <translation>Pasirinkta zRLC:</translation>
+        <source>zREA Selected:</source>
+        <translation>Pasirinkta zREA:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2152,8 +2152,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Prieinamas Balansas: </translation>
     </message>
     <message>
-        <source>0 zRLC</source>
-        <translation>0 zRLC</translation>
+        <source>0 zREA</source>
+        <translation>0 zREA</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -2192,8 +2192,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Zerocoin Statistika:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zRLC</source>
-        <translation>Bendras balansas, įskaitant nepatvirtintą ir nesubrendusį zRLC</translation>
+        <source>Total Balance including unconfirmed and immature zREA</source>
+        <translation>Bendras balansas, įskaitant nepatvirtintą ir nesubrendusį zREA</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2362,12 +2362,12 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Konvertavimo Statusas: Geras</translation>
     </message>
     <message>
-        <source>zRLC Spend #: </source>
-        <translation>zRLC Išleidimas #:</translation>
+        <source>zREA Spend #: </source>
+        <translation>zREA Išleidimas #:</translation>
     </message>
     <message>
-        <source>zRLC Mint</source>
-        <translation>zRLC Konvertavimas</translation>
+        <source>zREA Mint</source>
+        <translation>zREA Konvertavimas</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2850,8 +2850,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Pasirinktinio pakeitimo adresas</translation>
     </message>
     <message>
-        <source>0 RLC</source>
-        <translation>0 RLC</translation>
+        <source>0 REA</source>
+        <translation>0 REA</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3304,8 +3304,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>0</translation>
     </message>
     <message>
-        <source>zRLC</source>
-        <translation>zRLC</translation>
+        <source>zREA</source>
+        <translation>zREA</translation>
     </message>
     </context>
 <context>

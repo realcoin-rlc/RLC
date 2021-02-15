@@ -104,6 +104,6 @@ To create a new language template, you will need to edit the languages manifest 
 **Note:** that the language translation file **must end in `.qm`** (the compiled extension), and not `.ts`.
 
 ### Questions and general assistance
-The RealCoin Core translation maintainers include *Fuzzbawls*. You can find them, and others, in the [RealCoin Discord](https://discord.realcoin.org).
+The RealCoin Core translation maintainers include *Fuzzbawls*. You can find them, and others, in the [RealCoin Discord](https://discord.gg/cxCeTNcRTm).
 
 Announcements will be posted during application pre-releases to notify translators to check for updates.
