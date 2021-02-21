@@ -75,10 +75,10 @@ am__make_running_with_option = \
   test $$has_opt = yes
 am__make_dryrun = (target_option=n; $(am__make_running_with_option))
 am__make_keepgoing = (target_option=k; $(am__make_running_with_option))
-pkgdatadir = $(datadir)/realcoin
-pkgincludedir = $(includedir)/realcoin
-pkglibdir = $(libdir)/realcoin
-pkglibexecdir = $(libexecdir)/realcoin
+pkgdatadir = $(datadir)/rea
+pkgincludedir = $(includedir)/rea
+pkglibdir = $(libdir)/rea
+pkglibexecdir = $(libexecdir)/rea
 am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd
 install_sh_DATA = $(install_sh) -c -m 644
 install_sh_PROGRAM = $(install_sh) -c
@@ -318,7 +318,7 @@ CLIENT_VERSION_BUILD = 0
 CLIENT_VERSION_IS_RELEASE = true
 CLIENT_VERSION_MAJOR = 1
 CLIENT_VERSION_MINOR = 0
-CLIENT_VERSION_REVISION = 0
+CLIENT_VERSION_REVISION = 1
 COMPAT_LDFLAGS = 
 COPYRIGHT_YEAR = 2021
 CPP = gcc -m64 -E
@@ -413,7 +413,7 @@ PACKAGE_BUGREPORT = www.real-coin.in
 PACKAGE_NAME = RealCoin Core
 PACKAGE_STRING = RealCoin Core 1.0.1
 PACKAGE_TARNAME = realcoin
-PACKAGE_URL = 
+PACKAGE_URL = https://github.com/realcoin-rea/rea
 PACKAGE_VERSION = 1.0.1
 PATH_SEPARATOR = :
 PIC_FLAGS = -fPIC
