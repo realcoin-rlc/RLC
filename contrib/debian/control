@@ -30,7 +30,7 @@ Build-Depends: debhelper,
 Standards-Version: 3.9.2
 Homepage: http://www.real-coin.in
 Vcs-Git: git://github.com/realcoin-rea/REA.git
-Vcs-Browser: http://github.com/realcoin-rea/REA.git
+Vcs-Browser: http://github.com/realcoin-rea/rea.git
 
 Package: realcoind
 Architecture: any

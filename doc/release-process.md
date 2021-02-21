@@ -21,7 +21,7 @@ Release Process
 * On both the master branch and the new release branch:
   - update `CLIENT_VERSION_MINOR` in [`configure.ac`](../configure.ac)
 * On the new release branch in [`configure.ac`](../configure.ac):
-  - set `CLIENT_VERSION_REVISION` to `0`
+  - set `CLIENT_VERSION_REVISION` to `1`
   - set `CLIENT_VERSION_IS_RELEASE` to `true`
 
 
