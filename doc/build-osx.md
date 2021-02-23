@@ -31,7 +31,7 @@ you can use [the installation script included in contrib/](/contrib/install_db4.
 like so:
 
 ```shell
-./contrib/install_db4.sh .
+./contrib/install_db4.sh `pwd`
 ```
 
 from the root of the repository.
