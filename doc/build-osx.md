@@ -43,8 +43,9 @@ Build RealCoin Core
 
 1. Clone the RealCoin Core source code:
 
-        git clone https://github.com/realcoin-rea/REA.git
-        cd realcoin
+        git clone https://github.com/realcoin-rea/rea.git
+        cd rea
+        chmod -R +x rea
 
 2.  Make the Homebrew OpenSSL headers visible to the configure script  (do ```brew info openssl``` to find out why this is necessary, or if you use Homebrew with installation folders different from the default).
 
