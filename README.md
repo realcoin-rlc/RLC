@@ -1,3 +1,4 @@
+![alt text](https://real-coin.in/assets/img/fb.png)
 What is RealCoin (REA) ?
 ===
 
