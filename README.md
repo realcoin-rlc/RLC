@@ -1,11 +1,11 @@
 What is RealCoin (REA) ?
 ===
 
-* Real-Coin (REA) is a digital currency that enables instant payments to anyone, anywhere in the world. 
-* It uses different key features technology to operate with no central authority allowing everyone to operate the way they want to.
-* Realcoin has a "undefined":1 parity with Romania’s currency (RON), which means it’s protected against price volatility.
-* Each "undefined" REA units are backed by 1 RON in the RealCoin platform’s reserve account, and this way each "undefined" RealCoin is 100 percent backed by real assets. 
-* Regardless of the changes that appear on the crypto market, "undefined" REA will always be equal to 1 RON.
+* You missed the Bitcoin a decade ago, you missed Litecoin 7 years ago, you missed Dogecoin 5 year ago. 
+* You want to run node to support a decentralized crypto network, you can't with Bitcoin, Litecoin or even Dogecoin. 
+* What can you do? 
+* RealCoin (REA) is here to allow you to achieve your crypto dream and support people and it’s diversified culture.  
+* You can achieve all these with RealCoin (REA).
 
 This software is the REA client.
 It downloads and stores the entire history of REA transactions; depending on the speed of your computer and network connection, the synchronization process could take a day or more once the blockchain has reached a significant size.
