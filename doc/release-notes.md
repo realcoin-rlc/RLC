@@ -1,4 +1,4 @@
-RealCoin Core version *3.3.0* is now available from:  <https://github.com/realcoin-rea/REA/releases>
+RealCoin Core version *1.0.1* is now available from:  <https://github.com/realcoin-rea/REA/releases>
 
 This is a new major version release, including various bug fixes and performance improvements, as well as updated translations.
 
@@ -8,7 +8,7 @@ Please report bugs using the issue tracker at github: <https://github.com/realco
 Mandatory Update
 ==============
 
-RealCoin Core v3.3.0 is a mandatory update for all users. This release contains new consensus rules and improvements that are not backwards compatible with older versions. Users will have a grace period of approximately one week to update their clients before enforcement of this update goes into effect.
+RealCoin Core v1.0.1 is a mandatory update for all users. This release contains new consensus rules and improvements that are not backwards compatible with older versions. Users will have a grace period of approximately one week to update their clients before enforcement of this update goes into effect.
 
 Masternodes will need to be restarted once both the masternode daemon and the controller wallet have been upgraded.
 
