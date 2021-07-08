@@ -59,33 +59,46 @@ Building
 ### Update your Ubuntu machine.
 
 ```
-$ sudo apt-get update
-$ sudo apt-get upgrade
+sudo apt-get update && sudo apt-get upgrade
 ```
 ### Install the required dependencies.
 
 ```
-$ sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl1.0-dev libevent-dev bsdmainutils python3 curl libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-test-dev libboost-thread-dev libboost-all-dev libboost-program-options-dev libminiupnpc-dev libzmq3-dev libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler libqrencode-dev unzip libgmp3-dev
+sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl1.0-dev libevent-dev bsdmainutils python3 curl libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-test-dev libboost-thread-dev libboost-all-dev libboost-program-options-dev libminiupnpc-dev libzmq3-dev libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler libqrencode-dev unzip libgmp3-dev
 ```
 
 ### Install Berkeley DB.
 
 ```
-$ sudo add-apt-repository ppa:bitcoin/bitcoin
-$ sudo apt-get update
-$ sudo apt-get install libdb4.8-dev libdb4.8++-dev
+sudo add-apt-repository ppa:bitcoin/bitcoin
+```
+```
+sudo apt-get update
+```
+```
+sudo apt-get install libdb4.8-dev libdb4.8++-dev
 ```
 
 ### Build Linux/MAC
 
 Ensure you have successfully installed all system package dependencies as described above. Then run the build, e.g.:
 ```
-$ git clone https://github.com/realcoin-rea/rea.git
-$ chmod -R +x rea/
-$ cd rea
-$ ./autogen.sh
-$ ./configure --with-incompatible-bdb
-$ make
+git clone https://github.com/realcoin-rea/rea.git
+```
+```
+chmod -R +x rea/
+```
+```
+cd rea
+```
+```
+./autogen.sh
+```
+```
+./configure --with-incompatible-bdb
+```
+```
+make -j12
 ```
 
 This should compile our dependencies and build `realcoind`
